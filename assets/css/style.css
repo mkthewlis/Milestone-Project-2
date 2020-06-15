@@ -57,6 +57,14 @@ h1, h2 {
     border: 3px solid #528FCB;
 }
 
+/*----------------------------------------------------Box styling*/
+.standard-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #528FCB;
+    background-color: #F5F862;
+    border-radius: 25px;
+}
 
 /*----------------------------------------------------Navbar styling*/
 
@@ -123,11 +131,13 @@ h1, h2 {
 /*----------------------------------------------------Mission section*/
 
 .mission-section {
-    height: 300px;
+    height: 350px;
 }
 
 .mission-text {
     width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*----------------------------------------------------Quick links section*/
@@ -139,4 +149,16 @@ h1, h2 {
     background-size: cover;
     width: 100%;
     min-height: 730px;
+}
+
+.link-titles {
+    width: 700px;
+    margin-top: 80px;
+}
+
+.quick-links-btns {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    margin: 0 auto;
 }
