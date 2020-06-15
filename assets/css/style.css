@@ -17,13 +17,10 @@ body {
 
 /*----------------------------------------------------Font styling*/
 
-.menu-font ul li a {
+.navbar .menu-font a {
     font-family: 'Domine', serif;
     font-size: 24px;
     color: #528FCB;
-}
-
-.menu-font .menu-color li a {
 }
 
 /*----------------------------------------------------Navbar styling*/
@@ -53,3 +50,38 @@ body {
 
 /*----------------------------------------------------------------------------index.html*/
 
+/*----------------------------------------------------Hero section*/
+
+.hero-image {
+    background: url("../images/plastic-bottles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 1600px;
+}
+
+.heading-box {
+    background-color: #fff; 
+    border: 3px solid #F5F862;
+    border-radius: 25px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    width: 722px;
+}
+
+.heading-titles {
+    height: 214px;
+    margin-top: 250px;
+}
+
+.heading-text {
+    height: 277px;
+    margin-top: 50px;
+}
+
+
+#heading-arrow a i {
+    color: #F5F862;
+    margin: 0 auto;
+}
