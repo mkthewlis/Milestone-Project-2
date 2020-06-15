@@ -1,1 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Raleway:wght@300;400;500&display=swap');
+
+/*----------------------------------------------------------------------------Project styles*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*----------------------------------------------------Background colours*/
+
+.menu-bg {
+    background-color: #ffffff;
+}
+
+/*----------------------------------------------------Font styling*/
+
+.menu-font ul li a {
+    font-family: 'Domine', serif;
+    font-size: 24px;
+    color: #528FCB;
+}
+
+.menu-font .menu-color li a {
+}
+
+/*----------------------------------------------------Navbar styling*/
+
+.menu-bg {
+    height: 100px;
+}
+
+.brand-image {
+    height: 80px;
+}
+
+.nav-items-align{
+    text-align: right;
+    align-items: right;
+}
+
+.menu-collapse-align {
+    margin-right: 5px;
+    text-align: right;
+}
+
+.navbar-border {
+    border-bottom: 5px solid #F5F862;
+}
+/*----------------------------------------------------Footer colours*/
+
+/*----------------------------------------------------------------------------index.html*/
+
