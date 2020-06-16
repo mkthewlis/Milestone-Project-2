@@ -76,11 +76,6 @@ h1, h2 {
     height: 100px;
 }
 
-.nav-items-align{
-    text-align: right;
-    align-items: right;
-}
-
 .menu-collapse-align {
     margin-right: 5px;
     text-align: right;
@@ -89,7 +84,18 @@ h1, h2 {
 .navbar-border {
     border-bottom: 5px solid #F5F862;
 }
-/*----------------------------------------------------Footer colours*/
+/*----------------------------------------------------Footer styling*/
+
+.footer-border {
+    border-top: 5px solid #F5F862;
+}
+
+.footer-items{
+    margin-right: 5px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #528FCB;
+}
 
 /*----------------------------------------------------------------------------index.html*/
 
@@ -97,16 +103,17 @@ h1, h2 {
 
 .hero-image {
     background: url("../images/plastic-bottles.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 1600px;
+    min-height: 800px;
 }
 
 .heading-titles {
     height: 160px;
-    margin-top: 250px;
+    margin-top: 200px;
     line-height: 1.5px;
     width: 700px;
 }
@@ -120,24 +127,37 @@ h1, h2 {
 .heading-arrow {
     text-align: center;
     margin-top: 50px;
-    scroll-behavior: smooth;
 }
 
-.heading-arrow a {
+.heading-arrow a{
     color: #F5F862;
+    font-size: 60px;
+}
+
+.mission-arrow {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.mission-arrow a {
+    color: #528FCB;
     font-size: 60px;
 }
 
 /*----------------------------------------------------Mission section*/
 
 .mission-section {
-    height: 350px;
+    min-height: 700px;
 }
 
 .mission-text {
     width: 700px;
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.mission-margin {
+    margin-bottom: 10px;
 }
 
 /*----------------------------------------------------Quick links section*/
@@ -148,12 +168,12 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 730px;
+    min-height: 800px;
 }
 
 .link-titles {
     width: 700px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .quick-links-btns {
@@ -162,3 +182,23 @@ h1, h2 {
     padding-top: 80px;
     margin: 0 auto;
 }
+
+
+
+
+
+/* Icon pulse */
+.icon-pulse {
+	display: inline-block;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite linear;
+}
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+/* Source: https://gist.github.com/gubi/8483199*/

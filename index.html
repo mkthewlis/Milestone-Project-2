@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
-    
+
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Our Oceans, Our Plastic</title>
@@ -41,20 +41,38 @@
             </div>
         </nav>
 
-        <!--Hero section with animated arrow and smooth scroll to next section-->
+        <!--Hero section with arrow to smooth scroll to the next section-->
         <section class="container-fluid hero-section hero-image">
             <div class="row">
                 <div class="col-12">
                     <div class="standard-box heading-titles">
-                        <h1>There are over 5 trillion pieces of plastic in our oceans. <br> Together, we can work to change this.</h1>
-                        <!--<h2>Together, we can work to change this.</h2>-->
+                        <h1>How much do you know about plastic waste in our oceans? <br> </h1>
+                        <h1>Follow the arrows below to learn more!</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="standard-box heading-text standard-font">
-                        <p>We’re on a mission to help our oceans by discussing the effects of our plastic waste. 
+                    <div class="heading-arrow">
+                        <a href="#mission-statement"><i class="fas fa-angle-double-down icon-pulse"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Mission section with arrow to smooth scroll to the next section-->
+        <section class="container-fluid mission-section" id="mission-statement">
+            <div class="row">
+                <div class="col-12">
+                    <div class="standard-box blue-border-box mission-text standard-font">
+                        <p>There are over 5 trillion pieces of plastic in our oceans.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="standard-box blue-border-box mission-text standard-font mission-margin">
+                        <p>That's why we're on a mission to help our oceans by discussing the effects of our plastic waste. 
                         We believe that being aware of what is happening is the first step to helping out. 
                         That’s why we’ve created this website with facts, links to other sources of information, 
                         an interactive quiz and the chance to sign up to our free monthly newsletter.</p>
@@ -63,27 +81,15 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="heading-arrow">
-                        <a href="#arrow-scroll"><i class="fas fa-angle-double-down"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Mission section-->
-        <section class="container-fluid mission-section" id="arrow-scroll">
-            <div class="row">
-                <div class="col-12">
-                    <div class="standard-box blue-border-box mission-text standard-font">
-                        <p>Our Oceans, Our Plastic is a non-profit organisation that aims to educate, inspire and empower 
-                        each of us to know how we can make a real difference to the health and future of our oceans.</p>
+                    <div class="mission-arrow">
+                        <a href="#links-section"><i class="fas fa-angle-double-down icon-pulse"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--Quick links section-->
-        <section class="container-fluid quick-links-section">
+        <section class="container-fluid quick-links-section" id="links-section">
             <div class="row">
                 <div class="col-12">
                     <div class="standard-box link-titles">
@@ -112,11 +118,11 @@
         </section>
 
         <!--Footer section with logo and links to social media-->
-        <footer>
+        <footer class="footer-border">
             <div>
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image">
             </div>
-            <div>
+            <div class="footer-items">
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -127,9 +133,11 @@
 </body>
 
 <!--Bootstrap scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+
+<!--Local script for arrow animation-->    
+    <script src="assets/js/index.js"></script>
 </html>
 
