@@ -18,11 +18,11 @@ body {
 
 /*----------------------------------------------------Background colours*/
 
-.menu-bg {
+.menu-bg, .intro-plastic {
     background-color: #ffffff;
 }
 
-.mission-section {
+.mission-section, .map-section {
     background-color: #F5F862;
 }
 
@@ -58,9 +58,8 @@ h1, h2 {
     background-color: #fff; 
     border: 3px solid #F5F862;
     border-radius: 25px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     margin: 0 auto;
-    min-height: 160px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -235,13 +234,13 @@ h1, h2 {
 
 /*----------------------------------------------------Quick links section*/
 
-.quick-links-section {
+.quick-links-image {
     background: url("../images/seashore.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 750px;
+    min-height: 850px;
 }
 
 .link-titles {
@@ -257,6 +256,44 @@ h1, h2 {
 
 /*----------------------------------------------------------------------------### END OF index.html ### */
 /*----------------------------------------------------------------------------### START OF: plastic.html ### */
+
+/*----------------------------------------------------Plastic title section*/
+
+.plastic-title {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.plastic-box {
+    background-color: #fff; 
+    border: 3px solid #F5F862;
+    border-radius: 25px;
+    margin: 50px 50px 50px 0px;
+}
+
+/*----------------------------------------------------Gyre section*/
+
+.gyre-image {
+    background: url("../images/gyre-national-geographic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+}
+
+.gyre-title {
+    padding-bottom: 0px;
+    min-height: 70px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+/*Margin set up minus for overlap effect*/
+.gyre-box {
+    margin-bottom: -80px; 
+}
 
 /*----------------------------------------------------------------------------### END OF: plastic.html ### */
 /*----------------------------------------------------------------------------### START OF: quiz.html ### */
@@ -302,13 +339,6 @@ h1, h2 {
     }
     .responsive-links{
         margin-bottom: 40px;
-    }
-}
-
-/*Lengthen hero image on small screens*/
-@media screen and (max-width: 700px)  {
-    .quick-links-section{
-        min-height: 900px
     }
 }
 
