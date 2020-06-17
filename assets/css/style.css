@@ -18,7 +18,7 @@ body {
 
 /*----------------------------------------------------Background colours*/
 
-.menu-bg, .intro-plastic, footer, .next-step-bg {
+.menu-bg, footer, .next-step-bg {
     background-color: #ffffff;
 }
 
@@ -290,6 +290,16 @@ h1, h2 {
 
 /*----------------------------------------------------Plastic title section*/
 
+.plastic-image {
+    background: url("../images/beach-bottle.jpg");
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .plastic-title {
     margin-top: 50px;
     margin-bottom: 0px;
@@ -297,7 +307,7 @@ h1, h2 {
 }
 
 .plastic-box {
-    margin: 50px 50px 50px 0px;
+    margin-top: 50px;
 }
 
 /*----------------------------------------------------Gyre section*/
@@ -305,6 +315,7 @@ h1, h2 {
 .gyre-image {
     background: url("../images/gyre-national-geographic.jpg");
     background-position: center;
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -312,6 +323,7 @@ h1, h2 {
 }
 
 .gyre-title {
+    display: flex;
     padding-bottom: 0px;
     min-height: 70px;
     margin-top: 120px;
