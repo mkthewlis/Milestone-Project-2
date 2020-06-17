@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top,
-            //Speed set to 700 milliseconds
+            //Speed set to 700 milliseconds across all pages
             }, 700, 'linear')
         })
     });

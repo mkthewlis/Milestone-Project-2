@@ -83,10 +83,11 @@ h1, h2 {
 /*----------------------------------------------------Button styling*/
 .standard-btn {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: #528FCB;
     background-color: #F5F862;
     border-radius: 25px;
+    min-height: 50px;
 }
 
 .standard-btn:hover {
@@ -96,6 +97,10 @@ h1, h2 {
 }
 
 /*----------------------------------------------------Navbar styling*/
+
+.navbar-padding {
+    background-color: #ffffff;
+}
 
 .menu-bg {
     height: 100px;
@@ -236,6 +241,10 @@ h1, h2 {
 
 /*----------------------------------------------------Mission section*/
 
+#mission-statement {
+    padding-top:100px;
+}
+
 .mission-section {
     min-height: 700px;
 }
@@ -251,6 +260,10 @@ h1, h2 {
 }
 
 /*----------------------------------------------------Quick links section*/
+
+#links-section {
+    padding-top: 100px;
+}
 
 .quick-links-image {
     background: url("../images/seashore.jpg");
@@ -340,7 +353,7 @@ h1, h2 {
 
 .ocean-cleanup {
     border-radius: 25px;
-    height: 40px;
+    height: 50px;
 }
 
 .ocean-cleanup:hover {
