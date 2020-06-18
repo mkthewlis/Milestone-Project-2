@@ -173,6 +173,21 @@ h1, h2 {
 
 /*----------------------------------------------------Arrow animation*/
 
+.yellow-arrow, .blue-arrow {
+    text-align: center;
+}
+
+.yellow-arrow  a {
+    color: #F5F862;
+    font-size: 60px;
+}
+
+.blue-arrow a {
+    color: #528FCB;
+    font-size: 60px;
+}
+
+
 /* Source: https://gist.github.com/gubi/8483199*/
 .icon-pulse {
 	display: inline-block;
@@ -219,24 +234,12 @@ h1, h2 {
 }
 
 .heading-arrow {
-    text-align: center;
     margin-top: 50px;
 }
 
-.heading-arrow a{
-    color: #F5F862;
-    font-size: 60px;
-}
-
 .mission-arrow {
-    text-align: center;
     margin-bottom: 50px;
     margin-top: 30px;
-}
-
-.mission-arrow a {
-    color: #528FCB;
-    font-size: 60px;
 }
 
 /*----------------------------------------------------Mission section*/
@@ -315,23 +318,39 @@ h1, h2 {
 .gyre-image {
     background: url("../images/gyre-national-geographic.jpg");
     background-position: center;
-    display: flex;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 500px;
+    min-height: 60%;
+    margin-top: 150px;
+    border: 3px solid #F5F862;
+    border-radius: 20px;
 }
 
 .gyre-title {
-    display: flex;
     padding-bottom: 0px;
     min-height: 70px;
-    margin-top: 120px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .gyre-box {
-    margin-bottom: 120px; 
+    margin-bottom: 20px; 
+}
+
+.image-source {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.image-source p {
+    margin-bottom: 0px;
+}
+
+.gyre-arrow {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*----------------------------------------------------Google Maps API section*/
@@ -341,22 +360,27 @@ h1, h2 {
 }
 
 .map-title {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
 
 .map-row {
     margin-bottom: 20px;
 }
 
+.maps-arrow {
+    margin-top: 0px;
+}
+
 /*----------------------------------------------------Next step section*/
 
 .next-step-bg {
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .next-step-links {
-    margin-top: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .next-step-btns {
@@ -410,7 +434,6 @@ h1, h2 {
         margin-left: 5%;
         margin-right: 5%;
     }
-
     .responsive-font {
         font-size: 25px;
     }
@@ -420,6 +443,13 @@ h1, h2 {
 }
 
 /*----------------------------------------------------For index.html*/
+
+/*Increase size of image to give spage for all link buttons*/
+@media screen and (max-width: 767px) {
+    .quick-links-image {
+        min-height: 1200px;
+    }
+}
 
 /*----------------------------------------------------For plastic.html*/
 
@@ -433,7 +463,23 @@ h1, h2 {
         margin-right: 0px;
         margin-left: 0px;
     }
+    .gyre-title {
+        margin-top: 20px;
+    }
 }
+
+/*Make gyre image responsive*/
+@media screen and (max-width: 992px){
+    .gyre-image {
+        min-height: 500px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .image-source {
+        margin-bottom: 0px;
+    }
+}
+
 
 /*Adjust maps section to be responsive on all screen sizes*/
 @media screen and (max-width: 767px) {
@@ -448,7 +494,14 @@ h1, h2 {
 /*Adjust next step section to be responsive on all screen sizes*/
 @media screen and (max-width: 767px) {
     .next-step-bg {
-        min-height: 700px;
+        min-height: 900px;
+    }
+    .next-step-links {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .first-link {
+        margin-top: 150px;
     }
 }
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
