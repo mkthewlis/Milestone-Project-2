@@ -13,7 +13,7 @@
 <body>
     <div id="container">
 
-        <!--Basic navbar structure from Bootstrap with additional styling-->
+<!--Basic navbar structure from Bootstrap with additional styling-->
          <nav class="navbar navbar-expand-md navbar-light navbar-border navbar-padding sticky-top">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image">
@@ -39,7 +39,67 @@
             </div>
         </nav>
 
-        <!--Footer section with logo and links to social media-->
+<!--Quiz title section-->
+        <section class="container-fluid quiz-section">
+            <div class="row">
+                <div class="col-12">
+                    <div class="standard-box heading-titles">
+                        <h1 class="extra-margin">Are you ready to test your knowledge about plastic in our oceans?</h1>
+                        <h1>Click on the arrow below to begin!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="yellow-arrow heading-arrow gyre-arrow">
+                        <a href="#question-one"><i class="fas fa-angle-double-down icon-pulse"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Question 1 section-->
+        <section class="container-fluid" id="question-one">
+            <div class="row">
+                <div class="col-12">
+                    <div class="standard-box question-number">
+                        <h1>Question One</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="gyre-location-image"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="standard-box box-two-col question-one-title">
+                        <h1>There are five points on this map. What do they show?</h1>
+                    </div>
+                    <div class="standard-box box-two-col standard-font responsive-font quiz-answers">
+                        <div class="next-step-btns">
+                            <a class="btn btn-primary btn-lg standard-btn quiz-btn" href="quiz.html" role="button">The deepest points in the ocean</a>
+                        </div>
+                        <div class="next-step-btns">
+                            <a class="btn btn-primary btn-lg standard-btn quiz-btn" href="quiz.html" role="button">Where plastic and waste often accumulate</a>
+                        </div>
+                        <div class="next-step-btns">
+                            <a class="btn btn-primary btn-lg standard-btn quiz-btn" href="quiz.html" role="button">The direction of ocean currents</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="yellow-arrow heading-arrow gyre-arrow">
+                        <a href="#google-map-section"><i class="fas fa-angle-double-down icon-pulse"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+<!--Footer section with logo and links to social media-->
         <footer class="footer-border" id="footer-position">
             <div>
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image">
@@ -55,11 +115,14 @@
 </body>
 
 <!--Bootstrap scripts-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/quiz.js"></script>
+<!--Local script for arrow animation-->    
+    <script src="assets/js/arrows.js"></script>
+
+<!--Local script for quiz functionality-->
+    <script type="text/javascript" src="assets/js/quiz.js"></script>
 
 </html>

@@ -295,7 +295,7 @@ h1, h2 {
 
 .plastic-image {
     background: url("../images/beach-bottle.jpg");
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -398,6 +398,48 @@ h1, h2 {
 
 /*----------------------------------------------------------------------------### END OF: plastic.html ### */
 /*----------------------------------------------------------------------------### START OF: quiz.html ### */
+
+/*----------------------------------------------------General questions*/
+
+.question-number {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.quiz-section {
+    background: url("../images/bottle-caps.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+}
+
+.quiz-answers {
+    border: none;
+}
+
+/*----------------------------------------------------Question One*/
+.gyre-location-image {
+    background: url("../images/gyre-locations.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    border: 3px solid #F5F862;
+    border-radius: 20px;
+}
+
+.question-one-title {
+    padding-bottom: 0px;
+    min-height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
 /*----------------------------------------------------------------------------### START OF: results.html ###* /
@@ -504,4 +546,26 @@ h1, h2 {
         margin-top: 150px;
     }
 }
+
+/*----------------------------------------------------For quiz.html*/
+
+/*Adjust margins for question titles*/
+@media screen and (max-width: 767px) {
+.question-number {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    }
+}
+
+/*Make gyre map responsive*/
+@media screen and (max-width: 992px){
+    .gyre-location-image {
+        min-height: 400px;
+        margin-bottom: 10px;
+    }
+    .question-one-title{
+        margin-top: 20px;
+    }
+}
+
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
