@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Raleway:wght@200;300;400;500&display=swap');
 
-/*----------------------------------------------------------------------------### START OF: Generic project styles ### */
+/*----------------------------------------------------------------------------### START OF: General project styles ### */
 
 html,
 body {
@@ -130,14 +130,15 @@ h1, h2 {
 /*Add border to hovered menu item*/
 .navbar-nav .nav-item:hover .nav-link {
     color: #528FCB;
-    border: 0.5px solid #F5F862;
-    border-radius: 20%;
+    text-decoration: underline;
+    text-decoration-color: #F5F862;
 }
 
 /*Prevent active menu item from changing style*/
 .navbar-light .navbar-nav .active>.nav-link {
     color: #528FCB;
-
+    text-decoration: underline;
+    text-decoration-color: #528FCB;
 }
 
 
@@ -203,7 +204,7 @@ h1, h2 {
 }
 /*End of source*/
 
-/*----------------------------------------------------------------------------### END OF: Generic project styles ### */
+/*----------------------------------------------------------------------------### END OF: General project styles ### */
 /*----------------------------------------------------------------------------### START OF: index.html ### */
 
 /*----------------------------------------------------Hero section*/
@@ -440,6 +441,36 @@ h1, h2 {
     text-align: center;
 }
 
+/*----------------------------------------------------Question Three*/
+
+.yellow-bag-image {
+    background: url("../images/yellow-bag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    width:100%;
+    height: 400px;
+    margin-top: 30px;
+    border: 3px solid #F5F862;
+    border-radius: 20px;
+}
+
+/*----------------------------------------------------Question Three*/
+
+.plastic-cup-image {
+    background: url("../images/plastic-cup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+        background-size: cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    border: 3px solid #F5F862;
+    border-radius: 20px;
+}
 
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
 /*----------------------------------------------------------------------------### START OF: results.html ###* /
