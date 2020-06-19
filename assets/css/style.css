@@ -22,7 +22,7 @@ body {
     background-color: #ffffff;
 }
 
-.mission-section, .map-section {
+.mission-section, .map-section, .even-questions {
     background-color: #F5F862;
 }
 
@@ -404,7 +404,7 @@ h1, h2 {
 
 .question-number {
     margin-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .quiz-section {
@@ -420,6 +420,15 @@ h1, h2 {
 .quiz-answers {
     border: none;
 }
+
+.even-questions .quiz-answers {
+        background-color: #F5F862;
+}
+
+.even-questions .question-number, .even-questions .questions {
+    border: 3px solid #528FCB;
+}
+
 
 /*----------------------------------------------------Question One*/
 .gyre-location-image {
