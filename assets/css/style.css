@@ -22,7 +22,7 @@ body {
     background-color: #ffffff;
 }
 
-.mission-section, .map-section, .even-questions, .newsletter-prompt-bg {
+.mission-section, .map-section, .even-questions, .newsletter-prompt-bg, .quick-steps-bg {
     background-color: #F5F862;
 }
 
@@ -40,6 +40,7 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: #528FCB;
 }
+
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -531,9 +532,6 @@ h1, h2 {
     border:2px solid #F5F862;
 }
 
-
-
-
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
 /*----------------------------------------------------------------------------### START OF: results.html ###*/
 
@@ -544,7 +542,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 1900px;
+    min-height: 1500px;
 }
 
 .results-score {
@@ -571,6 +569,44 @@ h1, h2 {
 /*----------------------------------------------------------------------------### END OF: results.html ###*/
 
 /*----------------------------------------------------------------------------### START OF: newsletter.html ### */
+
+.newsletter-image {
+    background: url("../images/seashore.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.newsletter-title {
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.quick-steps-bg {
+    min-height: 100vh;
+}
+
+.quick-steps-text {
+    margin-top: 150px;
+}
+
+.quick-steps-text ul {
+    padding-left: 60px;
+}
+
+.newsletter-btn {
+    border: 1px solid #528FCB;
+    min-width: 200px;
+}
+
+.btn-center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 /*----------------------------------------------------------------------------### END OF: newsletter.html ### */
 
 /*----------------------------------------------------------------------------### START OF: @media queries ### */
@@ -725,4 +761,31 @@ h1, h2 {
     }
 }
 
+/*----------------------------------------------------For results.html*/
+
+/*Adjust margins on smaller screens*/
+@media screen and (max-width: 769px) {
+.ocean-link {
+    margin-top: 0px;
+    }
+.first-link {
+    margin-bottom: 40px;
+    }
+}
+
+/*Resize background image on certain screens*/
+@media screen and (min-width: 770px) and (max-width: 924px) {
+.results-image {
+    min-height: 900px;
+    }
+}
+
+/*----------------------------------------------------For newsletter.html*/
+
+/*Correct height on certain screens*/
+@media screen and (min-width: 770px) and (max-width: 924px) {
+.quick-steps-bg {
+    min-height: 900px;
+    }
+}
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
