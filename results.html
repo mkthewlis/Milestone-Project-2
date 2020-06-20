@@ -13,7 +13,7 @@
 <body>
     <div id="container">
 
-        <!--Basic navbar structure from Bootstrap with additional styling-->
+<!--Basic navbar structure from Bootstrap with additional styling-->
          <nav class="navbar navbar-expand-md navbar-light navbar-border navbar-padding">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image sticky-top">
@@ -39,41 +39,85 @@
             </div>
         </nav>
 
-<!--Quiz title section-->
-        <section class="container-fluid quiz-section">
+<!--Results section-->
+        <section class="container-fluid results-image">
             <div class="row">
                 <div class="col-12">
-                    <div class="standard-box heading-titles results-score">
+                    <div class="standard-box results-score">
                         <h1 class="extra-margin">Congratulations! You scored <span></span>/ 7</h1>
+                        <p class="standard-font responsive-font">Well done! You’re well on your way to being more informed about 
+                        the plastic waste in our oceans.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="standard-box results-heading">
-                        <h1 class="standard-font responsive-font">Well done! You’re well on your way to being more informed about 
-                        the plastic waste in our oceans.</h1>
+                        <h1 class="standard-font responsive-font">Click on the arrow below to view the correct answers.</h1>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="standard-box results-heading">
-                        <h1 class="standard-font responsive-font">Click the arrow below to view the correct answers</h1>
-                    </div>
-                </div>
-            </div>
-
-
             <div class="row">
                 <div class="col-12">
                     <div class="yellow-arrow heading-arrow gyre-arrow">
-                        <a href="#question-one"><i class="fas fa-angle-double-down icon-pulse"></i></a>
+                        <a href="#correct-answers"><i class="fas fa-angle-double-down icon-pulse"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="correct-answers">
+                <div class="col-12">
+                    <div class="standard-box standard-font responsive-font answers-list">
+                        <p class="answer-title"><strong>Correct answers: </strong></p>
+                        <p><strong>Question 1: </strong> map shows the where plastic and 
+                        waste accumulates in the ocean, known as gyres. </p> 
+                        <p><strong>Question 2: </strong>The largest gyre is found in the North Pacific Ocean. </p> 
+                        <p><strong>Question 3: </strong> It is estimated that there are over 5 trillion pieces of 
+                        plastic in our oceans. </p>
+                        <p><strong>Question 4: </strong>We currently recycle 7% of our plastic waste. </p>
+                        <p><strong>Question 5: </strong> There might be more plastic than fish in the oceans by the year 2050. </p>
+                        <p><strong>Bonus Question: </strong> We should be concerned about plastic pollution for many reasons, 
+                        including all of the reasons listed in the quiz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="yellow-arrow heading-arrow gyre-arrow">
+                        <a href="#newsletter-prompt"><i class="fas fa-angle-double-down icon-pulse"></i></a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Footer section with logo and links to social media-->
+
+<!--Newsletter prompt section-->
+        <section class="container-fluid newsletter-prompt-bg" id="newsletter-prompt">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="box-two-col blue-border-box newsletter-links first-link">
+                        <div class="standard-title">
+                            <h1>Sign up to our newsletter here:</h1>
+                        </div>
+                        <div class="next-step-btns">
+                            <a class="btn btn-primary btn-lg standard-btn quiz-link-btn" href="newsletter.html" role="button">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="box-two-col blue-border-box newsletter-links">
+                        <div class="standard-title">
+                            <h1>Learn more about our oceans and plastic here:</h1>
+                        </div>
+                        <div class="next-step-btns">
+                            <a href="https://theoceancleanup.com/" target="_blank">
+                                <img src="assets/images/ocean-cleanup.png" alt="The Ocean CleanUp Logo" class="ocean-cleanup">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Footer section with logo and links to social media-->
         <footer class="footer-border" id="footer-position">
             <div>
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image">
@@ -89,11 +133,14 @@
 </body>
 
 <!--Bootstrap scripts-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/quiz.js"></script>
+<!--Local script for arrow animation-->    
+    <script src="assets/js/arrows.js"></script>
+
+<!--Local script for quiz functionality-->
+    <script type="text/javascript" src="assets/js/quiz.js"></script>
 
 </html>

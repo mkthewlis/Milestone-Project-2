@@ -22,7 +22,7 @@ body {
     background-color: #ffffff;
 }
 
-.mission-section, .map-section, .even-questions {
+.mission-section, .map-section, .even-questions, .newsletter-prompt-bg {
     background-color: #F5F862;
 }
 
@@ -537,12 +537,35 @@ h1, h2 {
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
 /*----------------------------------------------------------------------------### START OF: results.html ###*/
 
-.results-score{
-    min-height: 100px;
+.results-image {
+    background: url("../images/bottle-caps.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 1900px;
+}
+
+.results-score {
+    margin-top: 100px;
 }
 
 .results-heading {
     margin-top: 20px;
+}
+
+.answers-list {
+    margin-top: 100px;
+}
+
+.answer-title {
+    text-align: center;
+}
+
+.newsletter-links {
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 /*----------------------------------------------------------------------------### END OF: results.html ###*/
