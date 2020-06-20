@@ -91,9 +91,20 @@ h1, h2 {
 }
 
 .standard-btn:hover {
-  background-color: #528FCB;
-  border: none;
-  color: #F5F862;
+    background-color: #528FCB;
+    border: none;
+    color: #F5F862;
+}
+
+.quiz-btn {
+    background-color: #528FCB;
+    border: #F5F862;
+    color: #F5F862;
+}
+
+.quiz-btn:hover {
+    color: #F5F862;
+    background-color: #53BFE7;
 }
 
 /*----------------------------------------------------Navbar styling*/
@@ -402,6 +413,11 @@ h1, h2 {
 
 /*----------------------------------------------------General questions*/
 
+.questions {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .question-number {
     margin-top: 150px;
     margin-bottom: 20px;
@@ -429,23 +445,34 @@ h1, h2 {
     border: 3px solid #528FCB;
 }
 
+.quiz-btn {
+    margin: 0 auto;
+    min-width: 450px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.quiz-arrow {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
 
 /*----------------------------------------------------Question One*/
 .gyre-location-image {
     background: url("../images/gyre-locations.png");
-    background-position: center;
     background-repeat: no-repeat;
     min-height: 100%;
     width: 100%;
     margin-top: 30px;
     border: 3px solid #F5F862;
     border-radius: 20px;
+    background-position-x: 70%;
 }
 
 .question-one-title {
     padding-bottom: 0px;
     min-height: 70px;
-    margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -480,6 +507,32 @@ h1, h2 {
     border: 3px solid #F5F862;
     border-radius: 20px;
 }
+
+/*----------------------------------------------------Results*/
+
+.results-section{
+    background: url("../images/bottle-caps.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.results-section .col-12 {
+    text-align: center;
+}
+
+.results-btn {
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #fff;
+    border:2px solid #F5F862;
+}
+
+
+
 
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
 /*----------------------------------------------------------------------------### START OF: results.html ###* /
@@ -589,10 +642,17 @@ h1, h2 {
 
 /*----------------------------------------------------For quiz.html*/
 
+/*Reduce height of results section on smaller screens*/
+@media screen and (max-width: 767px) {
+.results-section{
+        height: 400px;
+    }
+}
+
+
 /*Adjust margins for question titles*/
 @media screen and (max-width: 767px) {
 .question-number {
-    margin-top: 50px;
     margin-bottom: 0px;
     }
 }
@@ -602,9 +662,34 @@ h1, h2 {
     .gyre-location-image {
         min-height: 400px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .question-one-title{
         margin-top: 20px;
+    }
+}
+@media screen and (max-width: 570px){
+    .gyre-location-image {
+        background-size: 80%;
+        max-width: 100%;
+        min-height: 150px;
+    }
+}
+
+/*Adjust answer buttons to scale to each screen*/
+@media screen and (max-width: 767px) {
+.quiz-btn {
+    min-width: 250px;
+    }
+}
+
+/*Remove quiz images on smaller screens*/
+@media screen and (max-width: 991px) {
+    .yellow-bag-image {
+        display: none;
+    }
+    .plastic-cup-image{
+        display: none;
     }
 }
 
