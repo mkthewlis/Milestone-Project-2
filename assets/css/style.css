@@ -460,6 +460,22 @@ h1, h2 {
     margin-bottom: 30px;
 }
 
+/*----------------------------------------------------Quiz JS animation*/
+
+.correct {
+    background-color:#8DF45C;
+    color: #528FCB;
+    border: 2px solid #528FCB;
+    pointer-events: none;
+}
+
+.incorrect {
+    background-color:#E86019;
+    color: #F5F862;
+    border: 2px solid #528FCB;
+    pointer-events: none;
+}
+
 
 /*----------------------------------------------------Question One*/
 .gyre-location-image {
