@@ -101,6 +101,7 @@ h1, h2 {
     background-color: #528FCB;
     border: #F5F862;
     color: #F5F862;
+    text-align: center;
 }
 
 .quiz-btn:hover {
@@ -436,6 +437,7 @@ h1, h2 {
 
 .quiz-answers {
     border: none;
+    margin: 0 auto;
 }
 
 .even-questions .quiz-answers {
