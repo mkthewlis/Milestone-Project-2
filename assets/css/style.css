@@ -451,8 +451,10 @@ h1, h2 {
 .quiz-btn {
     margin: 0 auto;
     min-width: 450px;
+    display: block; 
     margin-top: 3px;
     margin-bottom: 3px;
+    
 }
 
 .quiz-arrow {
