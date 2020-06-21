@@ -109,21 +109,20 @@ h1, h2 {
     background-color: #53BFE7;
 }
 
-.submit-results-btn {
+.submit-results-btn, .results-btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #528FCB;
     background-color: #F5F862;
     border-radius: 25px;
     border: 2px solid #528FCB;
-    line-height: 2;
-    min-height: 40px;
+    min-height: 30px;
     max-width: 200px;
     margin: 0 auto;
     margin-top: 80px;
 }
 
-.submit-results-btn:hover {
+.submit-results-btn:hover, .results-btn:hover {
     color: #F5F862;
     background-color: #53BFE7;
     border: none;
@@ -558,7 +557,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .results-section .col-12 {
@@ -567,9 +566,11 @@ h1, h2 {
 
 .results-btn {
     margin: 0 auto;
-    margin-top: 40px;
-    background-color: #fff;
-    border:2px solid #F5F862;
+    margin-top: 200px;
+    min-width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: none;
 }
 
 #show-results{
@@ -579,6 +580,7 @@ h1, h2 {
 .result-display{
     margin-top: 40px;
     min-height: 60px;
+    display: none;
 }
 
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */

@@ -26,10 +26,19 @@ $(document).ready(function(){
         $(this).siblings().fadeOut('300');
     });
 
-    // Prints the results under the submit button
+    //Function to reveal results
     $('#show-results').click(function(){
-        $('#results').text('Your score is: ' + results + '/7 points');
+        //Shows the box with user's results
+        $(".result-display").show();
+        $(".results-btn").show();
+        if (results > 5){
+            console.log('test');
+            $('#results').text('Congratulations! Your score is: ' + results + '/7 points');
+        } else if (results < 5 && results > 2){
+            console.log('oops');
+            $('#results').text('Well done for trying! Your score is: ' + results + '/7 points');
+        } else {
+            $('#results').text('Better luck next time! Your score is: ' + results + '/7 points');           
+        }
     });
-
 });
-
