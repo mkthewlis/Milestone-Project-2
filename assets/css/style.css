@@ -109,6 +109,26 @@ h1, h2 {
     background-color: #53BFE7;
 }
 
+.submit-results-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #528FCB;
+    background-color: #F5F862;
+    border-radius: 25px;
+    border: 2px solid #528FCB;
+    line-height: 2;
+    min-height: 40px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.submit-results-btn:hover {
+    color: #F5F862;
+    background-color: #53BFE7;
+    border: none;
+}
+
 /*----------------------------------------------------Navbar styling*/
 
 .navbar-padding {
@@ -547,9 +567,18 @@ h1, h2 {
 
 .results-btn {
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 40px;
     background-color: #fff;
     border:2px solid #F5F862;
+}
+
+#show-results{
+    margin-top: 100px;
+}
+
+.result-display{
+    margin-top: 40px;
+    min-height: 60px;
 }
 
 /*----------------------------------------------------------------------------### END OF: quiz.html ### */
@@ -566,7 +595,7 @@ h1, h2 {
 }
 
 .results-score {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .results-heading {

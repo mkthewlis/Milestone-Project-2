@@ -26,4 +26,10 @@ $(document).ready(function(){
         $(this).siblings().fadeOut('300');
     });
 
+    // Prints the results under the submit button
+    $('#show-results').click(function(){
+        $('#results').text('Your score is: ' + results + '/7 points');
+    });
+
 });
+
