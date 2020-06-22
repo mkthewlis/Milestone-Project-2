@@ -557,7 +557,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
+    min-height: 1000px;
 }
 
 .results-section .col-12 {
@@ -565,7 +565,7 @@ h1, h2 {
 }
 
 .answer-btn-margin{
-    margin-top: 150px;
+    margin-top: 250px;
     min-width: 300px;
 }
 
@@ -585,11 +585,11 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 1500px;
+    min-height: 1200px;
 }
 
-.results-score {
-    margin-top: 50px;
+.results-title {
+    margin-top:150px;
 }
 
 .results-heading {
@@ -598,10 +598,6 @@ h1, h2 {
 
 .answers-list {
     margin-top: 100px;
-}
-
-.answer-title {
-    text-align: center;
 }
 
 .newsletter-links {
@@ -747,11 +743,17 @@ h1, h2 {
         margin-bottom: 50px;
     }
     .first-link {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 }
 
 /*----------------------------------------------------For quiz.html*/
+
+/*Reduce quiz title margin on small screens*/
+@media screen and (max-width: 570px) {
+.quiz-title{
+    margin-top: 80px;
+}
 
 /*Adjust margins for question titles*/
 @media screen and (max-width: 767px) {
@@ -803,53 +805,47 @@ h1, h2 {
 }
 
 /*Make results area larger on smaller screens*/
+
 @media screen and (max-width: 562px){
     .results-section {
         min-height: 900px;
     }
     .answer-btn-margin {
-        margin-top: 150px;
+        margin-top: 50px;
     }
     .hide-display {
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-    .quiz-arrow {
-        display: none;
     }
 }
-/*
-@media screen and (max-width: 400px){
-    .results-section {
-        min-height: 150vh;
-    }
-    .answer-btn-margin {
-        margin-top: 300px;
-    }
-    .hide-display {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-} */
+
+/*Remove arrows on small screens*/
+@media screen and (max-width: 570px){
+    .hide-arrow {
+        display: none;
+    } 
+}
 
 /*----------------------------------------------------For results.html*/
 
 /*Adjust margins on smaller screens*/
 @media screen and (max-width: 769px) {
-.ocean-link {
-    margin-top: 0px;
+.results-title {
+    margin-top: 40px;
     }
-.first-link {
+.newsletter-prompt-bg{
+    min-height: 100vh;
+}
+.newsletter-links {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    }
+.answers-list {
+    margin-top: 0px;
     margin-bottom: 40px;
     }
 }
 
-/*Resize background image on certain screens*/
-@media screen and (min-width: 770px) and (max-width: 924px) {
-.results-image {
-    min-height: 1200px;
-    }
-}
 
 /*----------------------------------------------------For newsletter.html*/
 

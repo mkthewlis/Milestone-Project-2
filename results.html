@@ -14,7 +14,7 @@
     <div id="container">
 
 <!--Basic navbar structure from Bootstrap with additional styling-->
-         <nav class="navbar navbar-expand-md navbar-light navbar-border navbar-padding">
+        <nav class="navbar navbar-expand-md navbar-light navbar-border navbar-padding sticky-top">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="Our Oceans. Our Plastic. Logo" class="brand-image sticky-top">
             </a>
@@ -43,17 +43,16 @@
         <section class="container-fluid results-image">
             <div class="row">
                 <div class="col-12">
-                    <div class="standard-box results-score">
-                        <h1 ></h1>
-                        <p class="standard-font responsive-font">Well done! You’re well on your way to being more informed about 
-                        the plastic waste in our oceans.</p>
+                    <div class="standard-box results-title">
+                        <h1 class="heading-title">Quiz answers</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="standard-box results-heading">
-                        <h1 class="standard-font responsive-font">Click on the arrow below to view the correct answers.</h1>
+                        <h1 class="standard-font responsive-font">Well done! You’re well on your way to being more informed about 
+                        plastic waste in our oceans. Read on below to see the correct answers.</h1>
                     </div>
                 </div>
             </div>
@@ -67,9 +66,8 @@
             <div class="row" id="correct-answers">
                 <div class="col-12">
                     <div class="standard-box standard-font responsive-font answers-list">
-                        <p class="answer-title"><strong>Correct answers: </strong></p>
-                        <p><strong>Question 1: </strong> map shows the where plastic and 
-                        waste accumulates in the ocean, known as gyres. </p> 
+                        <p><strong>Question 1: </strong> The map shows the where plastic and 
+                        waste accumulate in the ocean in areas known as gyres. </p> 
                         <p><strong>Question 2: </strong>The largest gyre is found in the North Pacific Ocean. </p> 
                         <p><strong>Question 3: </strong> It is estimated that there are over 5 trillion pieces of 
                         plastic in our oceans. </p>
@@ -82,7 +80,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="yellow-arrow heading-arrow gyre-arrow">
+                    <div class="yellow-arrow heading-arrow gyre-arrow hide-arrow">
                         <a href="#newsletter-prompt"><i class="fas fa-angle-double-down icon-pulse"></i></a>
                     </div>
                 </div>
@@ -93,24 +91,22 @@
         <section class="container-fluid newsletter-prompt-bg" id="newsletter-prompt">
             <div class="row">
                 <div class="col-12 col-md-6">
+                    <div class="box-two-col blue-border-box newsletter-links">
+                        <div class="standard-title">
+                            <h1>Return to quiz here:</h1>
+                        </div>
+                        <div class="next-step-btns">
+                            <a class="btn btn-primary btn-lg standard-btn" href="quiz.html" role="button">Try again</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
                     <div class="box-two-col blue-border-box newsletter-links first-link">
                         <div class="standard-title">
                             <h1>Sign up to our newsletter here:</h1>
                         </div>
                         <div class="next-step-btns">
-                            <a class="btn btn-primary btn-lg standard-btn quiz-link-btn" href="newsletter.html" role="button">Sign up</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="box-two-col blue-border-box newsletter-links ocean-link">
-                        <div class="standard-title">
-                            <h1>Learn more about our oceans and plastic here:</h1>
-                        </div>
-                        <div class="next-step-btns">
-                            <a href="https://theoceancleanup.com/" target="_blank">
-                                <img src="assets/images/ocean-cleanup.png" alt="The Ocean CleanUp Logo" class="ocean-cleanup">
-                            </a>
+                            <a class="btn btn-primary btn-lg standard-btn" href="newsletter.html" role="button">Sign up</a>
                         </div>
                     </div>
                 </div>
