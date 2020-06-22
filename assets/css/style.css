@@ -109,20 +109,20 @@ h1, h2 {
     background-color: #53BFE7;
 }
 
-.submit-results-btn, .results-btn {
+.submit-results-btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #528FCB;
     background-color: #F5F862;
     border-radius: 25px;
     border: 2px solid #528FCB;
-    min-height: 30px;
+    min-height: 50px;
+    padding-top: 7px;
     max-width: 200px;
     margin: 0 auto;
-    margin-top: 80px;
 }
 
-.submit-results-btn:hover, .results-btn:hover {
+.submit-results-btn:hover {
     color: #F5F862;
     background-color: #53BFE7;
     border: none;
@@ -564,22 +564,13 @@ h1, h2 {
     text-align: center;
 }
 
-.results-btn {
-    margin: 0 auto;
-    margin-top: 200px;
-    min-width: 200px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: none;
-}
-
 #show-results{
     margin-top: 100px;
 }
 
-.result-display{
+.hide-display{
     margin-top: 40px;
-    min-height: 60px;
+    margin-bottom: 50px;
     display: none;
 }
 

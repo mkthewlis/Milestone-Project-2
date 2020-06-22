@@ -264,19 +264,28 @@
         <section class="container-fluid quiz-section results-section">
             <div class="row">
                 <div class="col-12">
-                        <p class="submit-results-btn" id="show-results">Submit answers</p>
+                    <p class="submit-results-btn" id="show-results">Submit answers</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="standard-box standard-font responsive-font result-display">
+                    <div class="standard-box standard-font responsive-font hide-display">
                         <h1 id="results"></h1>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <a class="btn btn-primary btn-lg standard-btn results-btn" href="results.html" role="button">Click here to see the correct answers</a>
+                <div class="col-12 col-md-6">
+                    <div class="box-two-col hide-display next-step-btns">
+                        <p class="try-again standard-font"></p>
+                        <p class="btn btn-primary btn-lg submit-results-btn" id="refresh">Try again</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="box-two-col hide-display next-step-btns">
+                        <p class="standard-font">Read through the correct answers here:</p>
+                        <a class="btn btn-primary btn-lg submit-results-btn" href="results.html" role="button">Correct answers</a>
+                    </div>
                 </div>
             </div>
         </section>

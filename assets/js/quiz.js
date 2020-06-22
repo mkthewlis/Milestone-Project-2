@@ -29,16 +29,24 @@ $(document).ready(function(){
     //Function to reveal results
     $('#show-results').click(function(){
         //Shows the box with user's results
-        $(".result-display").show();
+        $(".hide-display").show();
         $(".results-btn").show();
-        if (results > 5){
-            console.log('test');
-            $('#results').text('Congratulations! Your score is: ' + results + '/7 points');
+        //States user's score with personalised prompt to try again
+        $('#results').text('Your score is: ' + results + '/7 points');
+        if (results === 7){
+            $('.try-again').text(`You're an expert! Why not test someone else next?`)
+        } else if (results > 5){
+            $('.try-again').text('Well done! Why not test someone else next?')
         } else if (results < 5 && results > 2){
-            console.log('oops');
-            $('#results').text('Well done for trying! Your score is: ' + results + '/7 points');
+            $('.try-again').text('Good effort! Would you like try again?')
         } else {
-            $('#results').text('Better luck next time! Your score is: ' + results + '/7 points');           
+            $('.try-again').text('It looks like something went wrong there! Why not try again?')
         }
     });
+
+    //Refreshes the page so the user can start again
+    $('#refresh').click(function(){
+        location.href=location.href;
+    });
+
 });
