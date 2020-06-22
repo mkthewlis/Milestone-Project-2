@@ -557,15 +557,16 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
 .results-section .col-12 {
     text-align: center;
 }
 
-#show-results{
-    margin-top: 100px;
+.answer-btn-margin{
+    margin-top: 150px;
+    min-width: 300px;
 }
 
 .hide-display{
@@ -752,14 +753,6 @@ h1, h2 {
 
 /*----------------------------------------------------For quiz.html*/
 
-/*Reduce height of results section on smaller screens*/
-@media screen and (max-width: 767px) {
-.results-section{
-        height: 400px;
-    }
-}
-
-
 /*Adjust margins for question titles*/
 @media screen and (max-width: 767px) {
 .question-number {
@@ -779,6 +772,12 @@ h1, h2 {
     }
 }
 @media screen and (max-width: 570px){
+    .gyre-location-image {
+        background-size: 80%;
+        max-width: 100%;
+        min-height: 250px;
+    }
+@media screen and (max-width: 400px){
     .gyre-location-image {
         background-size: 80%;
         max-width: 100%;
@@ -803,6 +802,36 @@ h1, h2 {
     }
 }
 
+/*Make results area larger on smaller screens*/
+@media screen and (max-width: 562px){
+    .results-section {
+        min-height: 900px;
+    }
+    .answer-btn-margin {
+        margin-top: 150px;
+    }
+    .hide-display {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quiz-arrow {
+        display: none;
+    }
+}
+/*
+@media screen and (max-width: 400px){
+    .results-section {
+        min-height: 150vh;
+    }
+    .answer-btn-margin {
+        margin-top: 300px;
+    }
+    .hide-display {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+} */
+
 /*----------------------------------------------------For results.html*/
 
 /*Adjust margins on smaller screens*/
@@ -818,7 +847,7 @@ h1, h2 {
 /*Resize background image on certain screens*/
 @media screen and (min-width: 770px) and (max-width: 924px) {
 .results-image {
-    min-height: 900px;
+    min-height: 1200px;
     }
 }
 
