@@ -405,6 +405,11 @@ h1, h2 {
     margin-top: 0px;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 /*----------------------------------------------------Next step section*/
 
 .next-step-bg {
@@ -624,7 +629,7 @@ h1, h2 {
 }
 
 .quick-steps-bg {
-    min-height: 100vh;
+    min-height: 1000px;
 }
 
 .quick-steps-text {

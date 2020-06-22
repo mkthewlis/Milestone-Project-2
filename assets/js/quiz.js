@@ -37,7 +37,7 @@ $(document).ready(function(){
             $('.try-again').text(`You're an expert! Why not test someone else next?`)
         } else if (results > 5){
             $('.try-again').text('Well done! Why not test someone else next?')
-        } else if (results < 5 && results > 1){
+        } else if (results < 5 && results >= 1){
             $('.try-again').text('Good effort! Would you like try again?')
         } else {
             $('.try-again').text('It looks like something went wrong! Why not try again?')
