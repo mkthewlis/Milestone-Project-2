@@ -9,6 +9,8 @@ function newsletterSignUp(contactForm) {
             console.log("SUCCESS", response);
             //Refreshes form after submission
             location.reload();
+            //Add alert with user's name when form is successfully sent
+            alert("Great to have you with us " + contactForm.firstname.value + "! Look out for our newsletter in your inbox soon.");
         },
         function(error) {
             console.log("FAILED", error);
@@ -16,6 +18,7 @@ function newsletterSignUp(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
 /* Source of guidance used to create this code:
 Code Institute Mini Project: https://github.com/mkthewlis/rosie-resume-with-js/blob/master/assets/js/sendEmail.js 
 EmailJS: https://www.emailjs.com/docs/tutorial/creating-contact-form/

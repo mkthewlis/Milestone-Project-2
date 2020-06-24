@@ -842,19 +842,19 @@ h1, h2 {
 
 /*Adjust margins on smaller screens*/
 @media screen and (max-width: 769px) {
-.results-title {
-    margin-top: 40px;
+    .results-title {
+        margin-top: 40px;
     }
-.newsletter-prompt-bg{
-    min-height: 100vh;
-}
-.newsletter-links {
+    .newsletter-prompt-bg{
+        min-height: 100vh;
+    }
+    .newsletter-links {
     margin-top: 50px;
     margin-bottom: 0px;
     }
-.answers-list {
-    margin-top: 0px;
-    margin-bottom: 40px;
+    .answers-list {
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
 }
 
@@ -865,6 +865,12 @@ h1, h2 {
 @media screen and (min-width: 770px) and (max-width: 924px) {
 .quick-steps-bg {
     min-height: 900px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .newsletter-form {
+        margin-top: 40px;
     }
 }
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
