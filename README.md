@@ -3,7 +3,7 @@
 ## Code Institute: Milestone Project 2
 
 
-![Our Oceans, Our Plastic Responsive Design](https://github.com/mkthewlis/Milestone-Project-1/blob/master/assets/images/responsive-project.png)
+![Our Oceans, Our Plastic Responsive Design](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/responsive-project.png)
 
 
 *Our Oceans, Our Plastic* is a fictional organisation that aims aims to inform the general public about plastic waste in our 
