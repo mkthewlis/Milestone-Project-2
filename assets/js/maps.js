@@ -53,6 +53,7 @@ function createMarker(gyreLocation, gyreContent) {
 }
 
 /* Sources of guidance used to create this code: 
+https://developers.google.com/maps/documentation/javascript/infowindows 
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 https://gist.github.com/Cathon/9f650b5b722abc28e715
 https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i

@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!--Script for EmailJS email service-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript"> (function(){ emailjs.init("user_CL8IrVW8hQGL9Yer7j9rL"); })(); </script>
+
     <!--Favicon created courtesy of: https://gauger.io/fonticon/-->
     <link rel="icon" type="image/png" href="assets/images/favicon.ico"/>
+    
     <title>Our Oceans, Our Plastic</title>
 </head>
 <body>
@@ -58,7 +65,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="box-two-col standard-font responsive-font newsletter-form">
-                        <form onsubmit="alert('Thanks for your details! We will get in touch with you soon')">
+                        <form onsubmit="return newsletterSignUp(this);">
                             <div class="form-group form-style">
                                 <input type="text" name="first-name" id="firstname" class="form-control form-bg" placeholder="First Name" required/>
                                 <input type="text" name="first-name" id="lastname" class="form-control form-bg" placeholder="Last Name" required/>
@@ -121,7 +128,7 @@
 <!--Local script for arrow animation-->    
     <script src="assets/js/arrows.js"></script>
 
-<!--Local script for quiz functionality-->
-    <script type="text/javascript" src="assets/js/quiz.js"></script>
+<!--Local script for newsletter signup-->
+    <script type="text/javascript" src="assets/js/newsletter.js"></script>
 
 </html>
