@@ -22,7 +22,7 @@ var contents = [
 
 function initMap() {
     //Set the map to center on the North Pacific Gyre
-    var startPosition = {lat: 30.400, lng: -171.356};
+    var startPosition = locations[0];
     var centerPoint = {
         center: startPosition,
         zoom: 1
@@ -36,31 +36,24 @@ function initMap() {
     }
 }
 
-function createMarker(location, content) {
+//Function passes locations[i] and contents [i] (from above) as parameters for each gyre marker
+function createMarker(gyreLocation, gyreContent) {
 
-    //Creates marker based on the locations of variable above
+    //Creates marker based on the locations of each gyre
     var marker = new google.maps.Marker({
-        position: location,
+        position: gyreLocation,
         map: map
     });
 
-    //Opens info window when clicked
+    //Opens info window about specific gyre when clicked
     marker.addListener('click', function() {
-       infowindow.setContent(content);
+       infowindow.setContent(gyreContent);
        infowindow.open(map, this);
     });
 }
 
-/*
-  var northPacific = {lat: 30.400, lng: -171.356};
-  var southPacific = {lat: -34.013, lng: -139.597};
-  var northAtlantic = {lat: 41.432, lng: -41.885};
-  var southAtlantic = {lat: -28.856, lng: -12.090};
-  var indianOcean = {lat: -23.656, lng: 82.567}; 
-
-  */
-
-/* Source: 
+/* Sources of guidance used to create this code: 
 https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 https://gist.github.com/Cathon/9f650b5b722abc28e715
+https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i
 */
