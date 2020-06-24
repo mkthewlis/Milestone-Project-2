@@ -13,11 +13,11 @@ var locations = [
 
 //Content to be added to each info window
 var contents = [
-    'North Pacific Marker. More information can be found at: https://en.wikipedia.org/wiki/North_Pacific_Gyre',
-    'North Pacific Marker. More information can be found at: https://en.wikipedia.org/wiki/North_Pacific_Gyre',
-    'North Pacific Marker. More information can be found at: https://en.wikipedia.org/wiki/North_Pacific_Gyre',
-    'North Pacific Marker. More information can be found at: https://en.wikipedia.org/wiki/North_Pacific_Gyre',
-    'North Pacific Marker. More information can be found at: https://en.wikipedia.org/wiki/North_Pacific_Gyre',
+    '<h1>North Pacific</h1><p>More information about this gyre can be found at: </p><a href="https://en.wikipedia.org/wiki/North_Pacific_Gyre" target="_blank">Wikipedia: North Pacific Gyre</a>',
+    '<h1>South Pacific</h1><p>More information about this gyre can be found at: </p><a href="https://en.wikipedia.org/wiki/South_Pacific_Gyre" target="_blank">Wikipedia: South Pacific Gyre</a>',
+    '<h1>North Atlantic</h1><p>More information about this gyre can be found at: </p><a href="https://en.wikipedia.org/wiki/North_Atlantic_Gyre" target="_blank">Wikipedia: North Atlantic Gyre</a>',
+    '<h1>South Atlantic</h1><p>More information about this gyre can be found at: </p><a href="https://en.wikipedia.org/wiki/South_Atlantic_Gyre" target="_blank">Wikipedia: South Atlantic Gyre</a>',
+    '<h1>Indian Ocean</h1><p>More information about this gyre can be found at: </p><a href="https://en.wikipedia.org/wiki/Indian_Ocean_Gyre" target="_blank">Wikipedia: Indian Ocean Gyre</a>',
 ];
 
 function initMap() {
