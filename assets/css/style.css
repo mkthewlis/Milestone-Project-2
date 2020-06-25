@@ -623,6 +623,7 @@ h1, h2 {
 
 .newsletter-image {
     background: url("../images/seashore.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -63,15 +63,60 @@ The main requirements were to make an interactive and responsive website with HT
 ### Wireframing my project on Figma
 
 Design for desktop devices:
-![My workspace on Figma]()
+![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_screenshot.png)
 
 Design for mobile devices:
-![My responsive design for mobile devices]()
+![My responsive design for mobile devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_mobile.png)
 
 Design for tablet devices:
-![My responsive design for tablet devices]()
+![My responsive design for tablet devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_tablet.png)
 
 [The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=170%3A1)
+
+## Features
+
+### Existing Features
+
+This project consists of five pages, four of which can be reached through the menu bar and one which is accessed after submitting the quiz answers.
+
+#### Consistent features across all pages
+
+- The menu at the top of the page and footer are consistent and responsive throughout the website. 
+- Each page uses interactive arrows to visually encourage the user to scroll down. These can also be clicked on to take them further down the page. The arrows are either the theme blue or yellow to remain consistent on each page.
+- Certain images are used more than once at various points in the website for consistency and familiarity.
+- Each page begins with an image with a fixed background and is then divided into clear sections in a similar pattern.
+
+#### Home
+
+- The user meets a simple title that explains the purpose of the website and encourages them to read on.
+- The user is then presented with a fact about ocean waste and the mission of *Our Oceans, Our Plastic*.
+- The end of the page provides three links for the user: to learn more, take the quiz or sign up to the newsletter.
+
+#### A Plastic Problem
+
+- The title section introduces the user to more facts about plastic waste.
+- They are then presented with facts about gyres (areas of plastic and waste in our oceans).
+- An interactive map (Google Maps API) follows with the location of the five largest gyres in our oceans. These markers can be clicked on to reveal their name and a link to their corresponding Wikipedia page.
+- The section ends with two buttons for the user to choose between: a link to take the quiz or a link to the organisation [The Ocean CleanUp](https://theoceancleanup.com/) to learn more about plastic waste.
+
+#### Quiz
+
+- The quiz features a title to welcome the users to the quiz.
+- The quiz is then divided into six sections (five questions and one bonus question) with a question and the choice of answers to choose between.
+- The answers change color depending on whether the correct one is selected, and all other answers for that question fade out. Each correct answer adds a point to the user's score and the bonus question adds an additional point if correct.
+- At the end the user can click on the 'submit' button to view their results in a section that emerges from being hidden. The user's score is presented here along with a button to refresh the score. The message above the button varies depending on the user's score.
+- The final section features a link to a page with the correct answers - a page that can only be accessed once the 'submit' button has been pressed.
+
+#### Results
+
+- This page is hidden from the user until they have submitted their results, but features the same menu bar and footer as the other pages for ease of navigation and consistency.
+- The first section contains a title and then a box with a list of the correct answers. 
+- The page ends with a link to return to the quiz or to sign up to the newsletter.
+
+#### Newsletter
+- The first section of this page features a title and information about the newsletter.
+- It also features a form that the user's can complete to register, created with [EmailJS](https://www.emailjs.com/). This leads to a personalised alert with their name when complete.
+- It ends with a section thanking the user for their time. It provides three quick steps they can take to make a difference to the plastic waste in our oceans.
 
 Sources: 
 
