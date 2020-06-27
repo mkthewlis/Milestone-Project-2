@@ -569,7 +569,7 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 1000px;
+    height: 800px;
 }
 
 .results-section .col-12 {
@@ -697,6 +697,13 @@ h1, h2 {
     }
 }
 
+/*Make titles responsive on smaller screens*/
+@media screen and (max-width: 410px) {
+    .responsive-title {
+        margin-top: 40px;
+    }
+}
+
 /*----------------------------------------------------For index.html*/
 
 /*Increase size of image to give spage for all link buttons*/
@@ -718,9 +725,7 @@ h1, h2 {
         margin-right: 0px;
         margin-left: 0px;
     }
-    .gyre-title {
-        margin-top: 20px;
-    }
+
 }
 
 /*Make gyre image responsive*/
@@ -735,9 +740,8 @@ h1, h2 {
     }
 }
 
-
 /*Adjust maps section to be responsive on all screen sizes*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .maps-box {
         margin-top: 80px;
     }
@@ -756,17 +760,12 @@ h1, h2 {
         margin-bottom: 50px;
     }
     .first-link {
-        margin-top: 50px;
+        margin-top: 150px;
     }
 }
 
 /*----------------------------------------------------For quiz.html*/
 
-/*Reduce quiz title margin on small screens*/
-@media screen and (max-width: 570px) {
-.quiz-title{
-    margin-top: 80px;
-}
 
 /*Adjust margins for question titles*/
 @media screen and (max-width: 767px) {
@@ -786,17 +785,14 @@ h1, h2 {
         margin-top: 20px;
     }
 }
-@media screen and (max-width: 570px){
+
+@media screen and (max-width: 480px){
     .gyre-location-image {
         background-size: 80%;
-        max-width: 100%;
-        min-height: 250px;
-    }
-@media screen and (max-width: 400px){
-    .gyre-location-image {
-        background-size: 80%;
-        max-width: 100%;
+        max-width: 80%;
         min-height: 150px;
+        margin: 0 auto;
+        margin-top: 30px;
     }
 }
 
@@ -819,9 +815,9 @@ h1, h2 {
 
 /*Make results area larger on smaller screens*/
 
-@media screen and (max-width: 562px){
+@media screen and (max-width: 814px){
     .results-section {
-        min-height: 900px;
+        min-height: 2000px;
     }
     .answer-btn-margin {
         margin-top: 50px;
