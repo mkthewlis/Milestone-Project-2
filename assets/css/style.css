@@ -610,7 +610,7 @@ h1, h2 {
 }
 
 .answers-list {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .newsletter-links {
@@ -860,7 +860,7 @@ h1, h2 {
         margin-top: 40px;
     }
     .newsletter-prompt-bg{
-        min-height: 100vh;
+        min-height: 400px;
     }
     .newsletter-links {
     margin-top: 50px;
@@ -871,7 +871,19 @@ h1, h2 {
         margin-bottom: 40px;
     }
 }
-
+@media screen and (max-width: 500px){
+    .answers-list {
+    margin-top: 170px;
+    }
+    .newsletter-prompt-bg{
+    min-height: 600px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 770px){
+    .answers-list {
+    margin-top: 200px;
+    }
+}
 
 /*----------------------------------------------------For newsletter.html*/
 
