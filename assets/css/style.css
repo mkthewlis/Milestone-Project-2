@@ -887,16 +887,45 @@ h1, h2 {
 
 /*----------------------------------------------------For newsletter.html*/
 
-/*Correct height on certain screens*/
+/*Correct newxt steps height on certain screens*/
 @media screen and (min-width: 770px) and (max-width: 924px) {
 .quick-steps-bg {
-    min-height: 900px;
+    min-height: 1000px;
+    }
+}
+@media screen and (max-width: 500px){
+.quick-steps-bg {
+    min-height: 1200px;
     }
 }
 
-@media screen and (max-width: 800px){
+/*Add padding to newsletter signup form on smaller screens*/
+@media screen and (max-width: 767px){
     .newsletter-form {
         margin-top: 40px;
     }
 }
+
+/*Change height of newsletter section*/
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+.newsletter-image {
+    min-height: 800px;
+    }
+}
+
+/*Change height of newsletter section*/
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+.newsletter-image {
+    min-height: 800px;
+    }
+}
+
+/*Change height of newsletter section*/
+@media screen and (max-width: 500px) {
+.newsletter-title {
+    margin-top: 40px;
+    }
+}
+
+
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
