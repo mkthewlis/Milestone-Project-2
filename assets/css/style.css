@@ -482,6 +482,7 @@ h1, h2 {
 .quiz-btn {
     margin: 0 auto;
     min-width: 450px;
+    max-width: 450px;
     display: block; 
     margin-top: 3px;
     margin-bottom: 3px;
@@ -718,7 +719,6 @@ h1, h2 {
 /*Adjust title section to be responsive on all screen sizes*/
 @media screen and (max-width: 767px) {
     .plastic-box {
-        margin-right: 0px;
         margin-top: 20px;
     }
     .gyre-title, .gyre-box {
@@ -743,7 +743,7 @@ h1, h2 {
 /*Adjust maps section to be responsive on all screen sizes*/
 @media screen and (max-width: 768px) {
     .maps-box {
-        margin-top: 80px;
+        margin-top: 40px;
     }
     .map-section {
         min-height: 1400px;
@@ -767,10 +767,15 @@ h1, h2 {
 /*----------------------------------------------------For quiz.html*/
 
 
-/*Adjust margins for question titles*/
+/*Adjust margins for question titles and answers*/
 @media screen and (max-width: 767px) {
-.question-number {
+    .question-number {
     margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 570px){
+    .quiz-answers{
+    margin-bottom: 40px;
     }
 }
 
@@ -788,7 +793,7 @@ h1, h2 {
 
 @media screen and (max-width: 480px){
     .gyre-location-image {
-        background-size: 80%;
+        background-size: 90%;
         max-width: 80%;
         min-height: 150px;
         margin: 0 auto;
@@ -817,14 +822,26 @@ h1, h2 {
 
 @media screen and (max-width: 814px){
     .results-section {
-        min-height: 2000px;
+        min-height: 1000px;
     }
     .answer-btn-margin {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .hide-display {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+}
+
+/*Adjust top margin of submit button on certain screens*/
+@media screen and (min-width: 760px) and (max-width: 900px){
+    .answer-btn-margin {
+        margin-top: 150px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1030px){
+    .answer-btn-margin {
+        margin-top: 50px;
     }
 }
 
