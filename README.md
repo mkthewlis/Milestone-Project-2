@@ -118,6 +118,52 @@ This project consists of five pages, four of which can be reached through the me
 - It also features a form that the user's can complete to register, created with [EmailJS](https://www.emailjs.com/). This leads to a personalised alert with their name when complete.
 - It ends with a section thanking the user for their time. It provides three quick steps they can take to make a difference to the plastic waste in our oceans.
 
+### Features Left to Implement
+
+- A future feature could be to create a way for the user to download a copy of their results by making a form that fills in with their quiz results and name - much like a certificate or personalised score card. Initially I had planned to add this feature, but quickly realised that this would go beyond the scope and time frame given for this project. 
+
+- As this website aims to educate users about plastic waste, I think it could be interesting to add another game to this website. Before deciding on a quiz, I had also considered making a memory game with flip cards, as this would be an interactive way for the user to learn about plastic waste whilst having fun. This could be added in a seperate page after the quiz if the project were revisited.
+
+- Another additional feature that could be added would be to make the quiz multiplayer, by allowing one user after the other to answer the quiz with both results saved. Once both players have finished, the results could be compared side by side.
+
+## Technologies Used - Including languages, libraries, frameworks, editors and version control
+
+- HTML5
+    * The language used to create the form and add content to the website.
+- CSS3 
+    * The language used to style the HTML5 elements according to the design colour scheme.
+- JavaScript
+    * The languge used to create the quiz, implement the Google Maps API feature, send emails with EmailJS and animate the clickable arrows throughout the project.
+- [jQuery](https://jquery.com/)
+    * I used the jQuery library to help write the code for my quiz and animated arrows. 
+- [Bootstrap framework](https://getbootstrap.com/) 
+    * I decided to use Bootstrap's grid container system as I wanted to design my project with a 'mobile first' approach.
+- [Gitpod](https://www.gitpod.io/)
+    * I relied on Gitpod's dev environment to write the code for my project.
+- [Git Version Control](https://git-scm.com/)
+    * I used Git for Version Control to track and record changes to my code and refer back when needed.
+- [GitHub](https://github.com/)
+    * I hosted my deployed website to GitHub, with previous versions of my code stored through the commit history.
+
+## Additional tools used
+- [Figma](https://www.figma.com/) 
+    * Figma helped me design my project, by creating wireframes for desktop, tablet and mobile devices. 
+- [Canva](https://www.canva.com/)
+    * I used Canva to create the logo for *Our Oceans, Our Plastic* and imported the logo into my project when complete.
+- [FontAwesome](https://fontawesome.com/) 
+    * I relied on a free FontAwesome arrow icon to create the animated blue and yellow icons for my project.
+- [Pexels](https://www.pexels.com/) 
+    * This was the source of several of the images used in my project, fully referenced in the 'Media' section below.
+- [TinyPNG](https://tinypng.com/) 
+    * I used TinyPNG to compress my image files to try to reduce the loading time for each page. 
+- [Google Fonts](https://fonts.google.com/)
+    * I used two complementary fonts from Google for my project: Montserrat and Raleway. 
+- [Gauger Fonticon Generator](https://gauger.io/fonticon/) 
+    * This free interactive Fonticon Generator allowed me to create a fonticon with a Font Awesome icon and style it with the colours from my colour scheme.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    * This was a great tool throughout the project to test my HTML and CSS code.
+
+    
 Sources: 
 
 Icon pulse: https://gist.github.com/gubi/8483199
