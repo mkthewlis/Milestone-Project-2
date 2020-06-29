@@ -1,6 +1,14 @@
 ## Testing
 
-The testing process is outlined below. To return to the previous document, click [here](https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md).
+The testing process is outlined below. It includes:
+- Testing user stories
+- Validating HTML, CSS and JavaScript code
+- Checking website compatibility on different browsers
+- Checking responsiveness of design on all screen sizes
+- Manually testing the quiz feature
+- Manually testing the newsletter sign up form
+
+To return to the previous document, click [here](https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md).
 
 ### Testing User Stories
 
@@ -58,7 +66,9 @@ I manually tested the design of the live project by doing the following:
 #### Results and changes
 
 These manual tests led to minor changes in image height, margins and padding of certain features targeted with media queries, which can be viewed by seeing changes to my project through the [commit history](https://github.com/mkthewlis/Milestone-Project-2/commits/master).
-One noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user.
+One noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user. 
+Here is the result of the quiz without the arrows on small screens:
+![Quiz without arrows on small screen](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/no-arrows.png)
 
 However, at the end of the project I realised that there would be a better way to achieve the same results for making certain aspects of my design responsive. Instead of changing the margins and alignment of classes to be responsive for each screen individually, I could have reduced the amount of code to get the same result of centering a text box on each screen with the following steps:
 - Place my textbox content in a `<div>` within another with the Bootstrap class `col-6` instead of `<col-12>`
@@ -75,7 +85,8 @@ This practice quiz in preparation for my project can be found [here](https://git
 
 Once I began working on this project, I continued testing as I developed the quiz code. This led to the following changes, corrections and observations:
 - I realised I would need to include different messages to the user depending on their score, either congratulating them or encouraging them to try again. I therefore changed the `if` statement for my function to check the user's results and alter the message accordingly.
-- I also realised I had to add a message if the user submitted the quiz without clicking any answers and therefore leading to a score of 0, with the message alerting them to their mistake and swiftly prompting them to try again.
+- I also realised I had to add a message if the user submitted the quiz without clicking any answers and therefore leading to a score of 0, with the message alerting them to their mistake and swiftly prompting them to try again. Here is the result of this change:
+![Error message when quiz score is 0](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/quiz-error.png)
 - As the user's results are based on clicking a answer button, I had to prevent users from clicking a correct answer multiple times, artificially increasing their score in the process. I therefore included the following code to only run the function once when clicked: `$('.true').one('click', function(){`
 
 ### Manually testing the 'Newsletter' form
