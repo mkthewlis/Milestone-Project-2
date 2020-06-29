@@ -3,7 +3,7 @@
 ## Code Institute: Milestone Project 2
 
 
-![Our Oceans, Our Plastic Responsive Design](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/responsive-project.png)
+![Our Oceans, Our Plastic Responsive Design](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/responsive-project.png)
 
 
 *Our Oceans, Our Plastic* is a fictional organisation that aims aims to inform the general public about plastic waste in our 
@@ -63,13 +63,13 @@ The main requirements were to make an interactive and responsive website with HT
 ### Wireframing my project on Figma
 
 Design for desktop devices:
-![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_screenshot.png)
+![My workspace on Figma](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/figma_screenshot.png)
 
 Design for mobile devices:
-![My responsive design for mobile devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_mobile.png)
+![My responsive design for mobile devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/figma_mobile.png)
 
 Design for tablet devices:
-![My responsive design for tablet devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/figma_tablet.png)
+![My responsive design for tablet devices](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/figma_tablet.png)
 
 [The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=170%3A1)
 
@@ -175,76 +175,7 @@ This project consists of five pages, four of which can be reached through the me
 
 ## Testing
 
-### Testing User Stories
-
-Based on the User Stories listed above:
-
-1. As this user was fairly new to the concept of plastic waste in our oceans, they would follow the prompts and be directed to the second page, 'A Plastic Problem', as it is filled with facts and information. Once completed, they could move on to the quiz to find a fun way to test what they have learnt. They would then leave the website with the confidence that they know more now than they did before.
-
-2. This user knows that plastic waste is a problem and now wants to stay up to date. This website provides several options to do so, most notably by directly navigating to the 'Newsletter' page and submitting the form to stay up to date. Secondly, they could also use the Google Maps feature to find the links to Wikipedia pages with more information about the five major areas of waste in our oceans, which is updated periodically by Wikipedia users. Finally, they could follow the link to the organisation [The Ocean Cleanup](https://theoceancleanup.com/), to learn more about possible solutions and what is being done.
-
-3. As a primary school teaching looking to introduce this topic to their students, the teacher could do so with two steps: by beginning to go through the facts about plastic waste whilst explaining each point to the students and then continuing to the complete the quiz together. With the buttons changing color depending on the selected answer and the scores shown at the end, it could be a fun way to engage the students and motivate them to learn more about protecting our oceans.
-
-4. All elements of the website are responsive on smaller screens, so the design is still visually appealing on the user's iPad Pro.
-
-5. The creators of this platform would want a consistent and encouraging design to inspire the users to be more excited than intimidated by the subject, as learning about plastic waste can be a daunting topic to think about at first. Through the light color scheme and interactive quiz, the creators could feel confident that a positive user experience would lead to more requests to join the newsletter, thereby increasing their following.
-
-### Validating the HTML, CSS and JavaScript code
-
-#### HTML
-My HTML code was passed through the [W3C Markup Validation Service](https://validator.w3.org/).
-Doing so brought up the errors below that I resolved in the following way:
- - *index.html* - The first section of my 'Home' page was missing a heading title, so I changed a paragraph `<p></p>` element to an `<h1></h1>`element to correct this.
- - *plastic.html* - This file passed without any errors.
- - *quiz.html* - The validator brought up an error that explained that I had an empty element on this page. However, this is intentionally done, as this element's content is added with JavaScript once the user submits their quiz results. I tested the code again after completing the quiz and the error disappeared.
- - *resutls. html* - I was shown I did not need to include `type="text/javascript"` in my script tag to my local JavaScript quiz.js file. I removed this and the code then passed the tests.
- - *newsletter.html* - This file passed without any errors.
-
-#### CSS
-I checked my CSS code with the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). 
-This test did not produce any errors.
-
-#### JavaScript
-I began by using [JSHint](https://jigsaw.w3.org/css-validator/) to check my JavaScript files.
-This brought up the following errors and what I did to correct them:
-- *maps.js* - This file passed without any errors.
-- *arrows.js* - I was alerted to the fact that I was missing three semicolons in my code, as seen in the screenshot below. I corrected this accordingly.
-![Errors shown with JSHint validator](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/jshint.png)
-- *quiz.js* - Here I was also missing four semicolons in one of my functions, which I also corrected by adding them to my code. 
-- *newsletter.js* - This file passed without any errors.
-
-### Testing compatibility with different browsers
-
-I manually tested the website on the following web browsers, checking that buttons, responsiveness and design worked as planned:
-- Google Chrome 
-- Mozilla Firefox 
-- Apple Safari
-
-### Testing the design's responsiveness on several screen sizes
-
-I manually tested the design of the live project by doing the following:
-- Using Google Developer Tools to view the project on devices with different screen sizes.
-- Checking whether the Google Maps feature still worked as planned on smaller devices, without compromising the ability to view the information stored on each marker. 
-- Controlling whether the hidden results area for the quiz would expand the background area to fit the content on smaller screens.
-- Asking for feedback from friends and family who opened and interacted with the project on their devices.
-
-The following manual tests led to minor changes in image height, margins and padding of certain features targeted with media queries, which can be viewed by seeing changes to my project through the [commit history](https://github.com/mkthewlis/Milestone-Project-2/commits/master).
-However, one noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user.
-
-### Manually testing my JavaScript code for the 'Quiz' page
-
-Before beginning my project, I created a practice repository to determine the outline of the JavaScript and jQuery code required to build a quiz (as mentioned earlier in this document). Whilst building the quiz, I continued to test it's validity with JSHint, as described throroughly above. 
-This practice quiz in preparation for my project can be found [here](https://github.com/mkthewlis/quiz-practice).
-
-However, once I began working on this project and developed it further, I began to test it from a user's perspective. This led to the following corrections and changes:
-- I realised I would need to include different messages to the user depending on their score, either congratulating them or encouraging them to try again
-- I also realised I had to add a message if the user submitted the quiz without clicking any answers
-- As the user's results are based on clicking a button, I had to prevent users from clicking a correct answer multiple times. I therefore included the following code to only run the function once when clicked: `    $('.true').one('click', function() {``
-
-
-
-
-
+Please view the complete testing process in this separate document [here](https://github.com/mkthewlis/Milestone-Project-2/blob/master/testing.md).
 
 #### Sources: 
 
