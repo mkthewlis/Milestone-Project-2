@@ -185,19 +185,25 @@ Based on the User Stories listed above:
 
 #### HTML
 My HTML code was passed through the [W3C Markup Validation Service](https://validator.w3.org/).
-Doing so brought up the following errors that I followed up on and resolved in the following way:
- - index.html - The first section of my 'Home' page was missing a heading title, so I changed a paragraph `<p></p>` element to an `<h1></h1>`element to correct this.
- - plastic.html - This file passed without any errors.
- - quiz.html - The validator brought up an error that explained that I had an empty element on this page. However, this is intentionally done, as this element's content is added with JavaScript once the user submits their quiz results. I tested the code again after completing the quiz and the error disappeared.
- - resutls. html - I was shown I did not need to include `type="text/javascript"` in my script tag to my local JavaScript quiz.js file. I removed this and the code then passed the tests.
- - newsletter.html - This file passed without any errors.
+Doing so brought up the errors below that I resolved in the following way:
+ - *index.html* - The first section of my 'Home' page was missing a heading title, so I changed a paragraph `<p></p>` element to an `<h1></h1>`element to correct this.
+ - *plastic.html* - This file passed without any errors.
+ - *quiz.html* - The validator brought up an error that explained that I had an empty element on this page. However, this is intentionally done, as this element's content is added with JavaScript once the user submits their quiz results. I tested the code again after completing the quiz and the error disappeared.
+ - *resutls. html* - I was shown I did not need to include `type="text/javascript"` in my script tag to my local JavaScript quiz.js file. I removed this and the code then passed the tests.
+ - *newsletter.html* - This file passed without any errors.
 
 #### CSS
 I checked my CSS code with the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). 
 This test did not produce any errors.
 
 #### JavaScript
-
+I began by using [JSHint](https://jigsaw.w3.org/css-validator/) to check my JavaScript files.
+This brought up the following errors and what I did to correct them:
+- *maps.js* - This file passed without any errors.
+- *arrows.js* - I was alerted to the fact that I was missing three semicolons in my code, as seen in the screenshot below. I corrected this accordingly.
+![Errors shown with JSHint validator](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/jshint.png)
+- *quiz.js* - Here I was also missing four semicolons in one of my functions, which I also corrected by adding them to my code. 
+- *newsletter.js* - This file passed without any errors.
 
 #### Sources: 
 
