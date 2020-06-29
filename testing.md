@@ -42,6 +42,7 @@ This test did not produce any errors.
 #### JavaScript
 I used [JSHint](https://jigsaw.w3.org/css-validator/) to check my JavaScript files.
 This brought up the following errors and what I did to correct them:
+- All JavaScript files - The validator showed me that I had placed my local JavaScript tags at the end of my code outside of the `</body>` tag. I corrected this subsequently in each file.
 - *maps.js* - This file passed without any errors.
 - *arrows.js* - I was alerted me to the fact that I was missing three semicolons in my code, as seen in the screenshot below. I corrected this accordingly.
 ![Errors shown with JSHint validator](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/jshint.png)
@@ -99,7 +100,7 @@ The sign up form was made responsive using the EmailJS service, fully referenced
 The form produced the correct error message as expected, as shown below. There were therefore no necessary changes to make.
 ![Error message on newsletter form](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/form-error.png)
 
-
+[Return to previous document here](https://github.com/mkthewlis/Milestone-Project-2/blob/master/README.md).
 
 
 

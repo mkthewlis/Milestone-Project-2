@@ -215,23 +215,30 @@ You can find both the source of this information and learn more about the proces
 
 The content of this website is entirely fictional and written by myself. The images are from Pexels, The National Geographic and The Ocean Cleanup and are referenced below. 
 
-## Media
+### Media
 
-### Images
+#### Images
 
-#### Pexels
+##### Pexels
 
-#### The National Geographic
+##### The National Geographic
 
-#### The Ocean Cleanup
+##### The Ocean Cleanup
 Include logo!
 
-## Source code used for reference
+### Source code used for reference
 
 These are also referenced fully in each file. 
 
-## Sources: 
 
 Icon pulse: https://gist.github.com/gubi/8483199
 
 Smooth scroll: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/ 
+
+### Acknowledgements
+
+Thank you to the following people who helped with support, inspiration and guidance at different stages in the project:
+
+- My mentor Seun Owonikoko
+- The supportive *Code Institute* community, including the tutor support team
+- My family and friends for their patience and honest critique throughout
