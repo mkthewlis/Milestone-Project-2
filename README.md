@@ -126,7 +126,9 @@ This project consists of five pages, four of which can be reached through the me
 
 - Another additional feature that could be added would be to make the quiz multiplayer, by allowing one user after the other to answer the quiz with both results saved. Once both players have finished, the results could be compared side by side.
 
-## Technologies Used - Including languages, libraries, frameworks, editors and version control
+## Technologies Used
+
+### Languages, libraries, frameworks, editors and version control
 
 - HTML5
     * The language used to create the form and add content to the website.
@@ -163,8 +165,41 @@ This project consists of five pages, four of which can be reached through the me
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     * This was a great tool throughout the project to test my HTML and CSS code.
 
-    
-Sources: 
+## Testing
+
+### Testing User Stories
+
+Based on the User Stories listed above:
+
+1. As this user was fairly new to the concept of plastic waste in our oceans, they would follow the prompts and be directed to the second page, 'A Plastic Problem', as it is filled with facts and information. Once completed, they could move on to the quiz to find a fun way to test what they have learnt. They would then leave the website with the confidence that they know more now than they did before.
+
+2. This user knows that plastic waste is a problem and now wants to stay up to date. This website provides several options to do so, most notably by directly navigating to the 'Newsletter' page and submitting the form to stay up to date. Secondly, they could also use the Google Maps feature to find the links to Wikipedia pages with more information about the five major areas of waste in our oceans, which is updated periodically by Wikipedia users. Finally, they could follow the link to the organisation [The Ocean Cleanup](https://theoceancleanup.com/), to learn more about possible solutions and what is being done.
+
+3. As a primary school teaching looking to introduce this topic to their students, the teacher could do so with two steps: by beginning to go through the facts about plastic waste whilst explaining each point to the students and then continuing to the complete the quiz together. With the buttons changing color depending on the selected answer and the scores shown at the end, it could be a fun way to engage the students and motivate them to learn more about protecting our oceans.
+
+4. All elements of the website are responsive on smaller screens, so the design is still visually appealing on the user's iPad Pro.
+
+5. The creators of this platform would want a consistent and encouraging design to inspire the users to be more excited than intimidated by the subject, as learning about plastic waste can be a daunting topic to think about at first. Through the light color scheme and interactive quiz, the creators could feel confident that a positive user experience would lead to more requests to join the newsletter, thereby increasing their following.
+
+### Validating the HTML, CSS and JavaScript code
+
+#### HTML
+My HTML code was passed through the [W3C Markup Validation Service](https://validator.w3.org/).
+Doing so brought up the following errors that I followed up on and resolved in the following way:
+ - index.html - The first section of my 'Home' page was missing a heading title, so I changed a paragraph `<p></p>` element to an `<h1></h1>`element to correct this.
+ - plastic.html - This file passed without any errors.
+ - quiz.html - The validator brought up an error that explained that I had an empty element on this page. However, this is intentionally done, as this element's content is added with JavaScript once the user submits their quiz results. I tested the code again after completing the quiz and the error disappeared.
+ - resutls. html - I was shown I did not need to include `type="text/javascript"` in my script tag to my local JavaScript quiz.js file. I removed this and the code then passed the tests.
+ - newsletter.html - This file passed without any errors.
+
+#### CSS
+I checked my CSS code with the [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/). 
+This test did not produce any errors.
+
+#### JavaScript
+
+
+#### Sources: 
 
 Icon pulse: https://gist.github.com/gubi/8483199
 
