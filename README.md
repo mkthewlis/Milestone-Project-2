@@ -177,7 +177,60 @@ This project consists of five pages, four of which can be reached through the me
 
 Please view the complete testing process in this separate document [here](https://github.com/mkthewlis/Milestone-Project-2/blob/master/testing.md).
 
-#### Sources: 
+## Deployment
+
+### Deploying my project 
+
+I created my project on GitHub and used GitPod's development environment to write my code. 
+
+To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
+
+1. I opened the 'Settings' section of my project repository in GitHub.
+2. From there, I scrolled to the 'GitHub Pages' section.
+3. Here I selected 'master branch' as my Source.
+3. This deployed my project on GitHub Pages and allowed me to share the live website with others. 
+
+Use the following link to view my live project: [Our Oceans, Our Plastic](https://mkthewlis.github.io/Milestone-Project-2/)
+
+More information about this process can be found on the following link: [Configuring a publishing source for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+### Cloning my project
+
+If you would like to work on my project further you can clone it to your local machine using the following steps:
+
+1. Scroll to the top of my repository and click on the "clone or download button"
+2. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
+    * HTTPS: click on the checklist icon to the right of the URL
+    * SSH key: first click on 'Use SSH' then click on the same icon as above
+3. Open the 'Terminal'
+4. Change the current working directory to the location where you want the cloned directory
+5. Type 'git clone', and then paste the URL you copied earlier.
+6. Press 'Enter' to create your local clone.
+    
+You can find both the source of this information and learn more about the process on the following link: [Cloning a Repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+## Credits
+
+### Content
+
+The content of this website is entirely fictional and written by myself. The images are from Pexels, The National Geographic and The Ocean Cleanup and are referenced below. 
+
+## Media
+
+### Images
+
+#### Pexels
+
+#### The National Geographic
+
+#### The Ocean Cleanup
+Include logo!
+
+## Source code used for reference
+
+These are also referenced fully in each file. 
+
+## Sources: 
 
 Icon pulse: https://gist.github.com/gubi/8483199
 

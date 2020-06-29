@@ -65,14 +65,15 @@ I manually tested the design of the live project by doing the following:
 
 #### Results and changes
 
-These manual tests led to minor changes in image height, margins and padding of certain features targeted with media queries, which can be viewed by seeing changes to my project through the [commit history](https://github.com/mkthewlis/Milestone-Project-2/commits/master).
-One noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user. 
-Here is the result of the quiz without the arrows on small screens:
+- These manual tests led to minor changes in image height, margins and padding of certain features targeted with media queries, which can be viewed by seeing changes to my project through the [commit history](https://github.com/mkthewlis/Milestone-Project-2/commits/master).
+- One noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user. 
+ - Here is the result of the quiz without the arrows on small screens:
+
 ![Quiz without arrows on small screen](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/no-arrows.png)
 
-However, at the end of the project I realised that there would be a better way to achieve the same results for making certain aspects of my design responsive. Instead of changing the margins and alignment of classes to be responsive for each screen individually, I could have reduced the amount of code to get the same result of centering a text box on each screen with the following steps:
-- Place my textbox content in a `<div>` within another with the Bootstrap class `col-6` instead of `<col-12>`
-- Give this class the property `margin: auto` to ensure that it is always aligned to the center of the screen.
+- At the end of the project I realised that there would be a better way to achieve the same results for making certain aspects of my design responsive. Instead of changing the margins and alignment of classes to be responsive for each screen individually, I could have reduced the amount of code to get the same result of centering a text box on each screen with the following steps:
+    * Place my textbox content in a `<div>` within another with the Bootstrap class `col-6` instead of `<col-12>`
+    * Give this class the property `margin: auto` to ensure that it is always aligned to the center of the screen.
 
 As it would take a significant amount of time to totally recreate the same effects with less code, I decided to keep the code as it is with several classes and media queries targeting different elements. My reason for doing so was the time constraint of my course. However, this has been a really insightful lesson and the experience gained from this one that I will definitely incorporate in all future projects.
 
