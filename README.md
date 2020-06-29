@@ -101,6 +101,8 @@ This project consists of five pages, four of which can be reached through the me
 
 #### Quiz
 
+> Note: The structure of the quiz differs slightly from the idea I had when creating my wireframes. Instead of only having three main sections for the six questions in total, I realised that it would be a better user experience if each question had its own clear section. With this new idea, I have clearly divided the sections between each question with alternating backgound colors: either the theme yellow, or a white background.  
+
 - The quiz features a title to welcome the users to the quiz.
 - The quiz is then divided into six sections (five questions and one bonus question) with a question and the choice of answers to choose between.
 - The answers change color depending on whether the correct one is selected, and all other answers for that question fade out. Each correct answer adds a point to the user's score and the bonus question adds an additional point if correct.
@@ -148,6 +150,10 @@ This project consists of five pages, four of which can be reached through the me
     * I hosted my deployed website to GitHub, with previous versions of my code stored through the commit history.
 
 ## Additional tools used
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial#maps_map_simple-javascript)
+    * I used the Google Maps API to create the interactive map feature on the page 'A Plastic Problem' as this would allow user's to view the locations of plastic waste in the oceans and access more information about each one by clicking on its marker.
+- [EmailJS](https://emailjs.com/)
+    * EmailJS allowed me to include a feature that submits a user's details once they have completed the contact form on the 'Newsletter' page, thereby signing them up to a fictitious newsletter service.
 - [Figma](https://www.figma.com/) 
     * Figma helped me design my project, by creating wireframes for desktop, tablet and mobile devices. 
 - [Canva](https://www.canva.com/)
@@ -163,7 +169,9 @@ This project consists of five pages, four of which can be reached through the me
 - [Gauger Fonticon Generator](https://gauger.io/fonticon/) 
     * This free interactive Fonticon Generator allowed me to create a fonticon with a Font Awesome icon and style it with the colours from my colour scheme.
 - [W3C Markup Validation Service](https://validator.w3.org/) 
-    * This was a great tool throughout the project to test my HTML and CSS code.
+    * This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code (as discussed in more detail below).
+ - [JSHint](https://jshint.com/) 
+    * This tool helped me test my JavaScript and jQuery code (explained in more detail below). 
 
 ## Testing
 
@@ -204,6 +212,39 @@ This brought up the following errors and what I did to correct them:
 ![Errors shown with JSHint validator](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/jshint.png)
 - *quiz.js* - Here I was also missing four semicolons in one of my functions, which I also corrected by adding them to my code. 
 - *newsletter.js* - This file passed without any errors.
+
+### Testing compatibility with different browsers
+
+I manually tested the website on the following web browsers, checking that buttons, responsiveness and design worked as planned:
+- Google Chrome 
+- Mozilla Firefox 
+- Apple Safari
+
+### Testing the design's responsiveness on several screen sizes
+
+I manually tested the design of the live project by doing the following:
+- Using Google Developer Tools to view the project on devices with different screen sizes.
+- Checking whether the Google Maps feature still worked as planned on smaller devices, without compromising the ability to view the information stored on each marker. 
+- Controlling whether the hidden results area for the quiz would expand the background area to fit the content on smaller screens.
+- Asking for feedback from friends and family who opened and interacted with the project on their devices.
+
+The following manual tests led to minor changes in image height, margins and padding of certain features targeted with media queries, which can be viewed by seeing changes to my project through the [commit history](https://github.com/mkthewlis/Milestone-Project-2/commits/master).
+However, one noticable change worth mentioning was removing the animated arrows between each question for the 'Quiz' page on the smallest screens. I made this decision as keeping them would have led to a negative user experience, as the arrows are unnecessary when scrolling on a small screen and I realised that removing them would not compromise the overall design whilst keeping them might irritate the user.
+
+### Manually testing my JavaScript code for the 'Quiz' page
+
+Before beginning my project, I created a practice repository to determine the outline of the JavaScript and jQuery code required to build a quiz (as mentioned earlier in this document). Whilst building the quiz, I continued to test it's validity with JSHint, as described throroughly above. 
+This practice quiz in preparation for my project can be found [here](https://github.com/mkthewlis/quiz-practice).
+
+However, once I began working on this project and developed it further, I began to test it from a user's perspective. This led to the following corrections and changes:
+- I realised I would need to include different messages to the user depending on their score, either congratulating them or encouraging them to try again
+- I also realised I had to add a message if the user submitted the quiz without clicking any answers
+- As the user's results are based on clicking a button, I had to prevent users from clicking a correct answer multiple times. I therefore included the following code to only run the function once when clicked: `    $('.true').one('click', function() {``
+
+
+
+
+
 
 #### Sources: 
 
