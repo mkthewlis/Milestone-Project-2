@@ -72,9 +72,23 @@
                                 <input type="email" name="email" id="emailaddress" class="form-control form-bg" placeholder="Email" required/>
                             </div>
                             <div class="btn-center">
-                                <input type="submit" value="Submit" class="standard-btn newsletter-btn"/>
+                                <input type="submit" value="Submit" class="standard-btn newsletter-btn" data-toggle="modal" data-target="#myModal"/>
                             </div>
                         </form>
+                        <!-- Bootstrap Modal created with guidance from: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h -->
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <p>Some text in the modal.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+      
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
