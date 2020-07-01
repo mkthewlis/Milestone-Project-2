@@ -12,4 +12,4 @@ $(document).ready(function(){
         });
     });
 
-// Source code: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/
+// Source of guidance used to create this code: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/

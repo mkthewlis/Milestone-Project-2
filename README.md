@@ -213,27 +213,29 @@ You can find both the source of this information and learn more about the proces
 
 ### Content
 
-The content of this website is entirely fictional and written by myself. The images are from Pexels, The National Geographic and The Ocean Cleanup and are referenced below. 
+The content of this website is entirely fictional and written by myself.
 
-### Media
+### Images
 
-#### Images
+The images are from Pexels, The National Geographic and The Ocean Cleanup and are referenced below. 
 
-##### Pexels
+#### Pexels
 
-##### The National Geographic
+- [Image of a plastic bottle on the beach](https://www.pexels.com/photo/close-up-photo-of-plastic-bottle-2409022/)
+- [Image of several bottle caps](https://www.pexels.com/photo/plastic-bottle-caps-3735202/)
+- [Image of yellow recycling bag](https://www.pexels.com/photo/hands-holding-yellow-plastic-bag-3746335/)
+- [Image of a plastic cup on the beach](https://www.pexels.com/photo/close-up-photo-of-plastic-cup-on-sand-2409025/)
+- [Image of clear plastic bottles](https://www.pexels.com/photo/plastic-bottles-3735215/)
+- [Image of the seashore](https://www.pexels.com/photo/aerial-photography-of-seashore-1680140/)
 
-##### The Ocean Cleanup
-Include logo!
+#### The National Geographic
 
-### Source code used for reference
+- [Image taken by 'Noaa' of an ocean gyre with plastic waste](https://www.nationalgeographic.org/encyclopedia/great-pacific-garbage-patch/)
 
-These are also referenced fully in each file. 
+#### The Ocean Cleanup
 
-
-Icon pulse: https://gist.github.com/gubi/8483199
-
-Smooth scroll: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/ 
+- [*The Ocean Cleanup* logo](https://theoceancleanup.com/)
+- [Map with the location of the five largest gyres](https://theoceancleanup.com/great-pacific-garbage-patch/)
 
 ### Acknowledgements
 
@@ -242,3 +244,5 @@ Thank you to the following people who helped with support, inspiration and guida
 - My mentor Seun Owonikoko
 - The supportive *Code Institute* community, including the tutor support team
 - My family and friends for their patience and honest critique throughout
+
+> Note: Please be aware that this website was made for educational purposes only and that I wrote the content when creating this project. The facts came from several sources online to add content, and although they were correct at the time of writing, they should not be followed without own research.
