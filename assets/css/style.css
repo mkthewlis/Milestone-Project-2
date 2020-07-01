@@ -633,8 +633,12 @@ h1, h2 {
 }
 
 .newsletter-title {
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 40px;
+}
+
+.newsletter-form {
+    margin-top: 40px;
 }
 
 .quick-steps-bg {
@@ -707,14 +711,31 @@ h1, h2 {
 
 /*----------------------------------------------------For index.html*/
 
-/*Increase size of image to give spage for all link buttons*/
+/*Alter size of links image to give spage for all link buttons respectively*/
 @media screen and (max-width: 767px) {
     .quick-links-image {
         min-height: 1200px;
     }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .quick-links-image {
+        min-height: 800px;
+    }
+}
 /*----------------------------------------------------For plastic.html*/
+
+/*Change title section to adjust on medium screens*/
+@media screen and (max-width: 1024px) {
+    .plastic-image{
+        min-height: 900px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 768px) {
+    .plastic-box {
+        margin-top: 60px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
 
 /*Adjust title section to be responsive on all screen sizes*/
 @media screen and (max-width: 767px) {
@@ -887,15 +908,17 @@ h1, h2 {
 
 /*----------------------------------------------------For newsletter.html*/
 
-/*Correct newxt steps height on certain screens*/
-@media screen and (min-width: 770px) and (max-width: 924px) {
-.quick-steps-bg {
-    min-height: 1000px;
+/*Add padding to newsletter signup form on smaller screens*/
+@media screen and (max-width: 767px){
+    .newsletter-form {
+        margin-top: 40px;
     }
 }
-@media screen and (max-width: 500px){
-.quick-steps-bg {
-    min-height: 1200px;
+
+/*Reduce upper margin on smaller screens*/
+@media screen and (max-width: 1200px){
+    .newsletter-title {
+        margin-top: 50px;
     }
 }
 
@@ -920,12 +943,10 @@ h1, h2 {
     }
 }
 
-/*Change height of newsletter section*/
-@media screen and (max-width: 500px) {
-.newsletter-title {
-    margin-top: 40px;
+/*Correct next steps height on certain screens*/
+@media screen and (max-width: 438px){
+    .quick-steps-bg {
+        min-height: 1200px;
     }
 }
-
-
 /*----------------------------------------------------------------------------### END OF: @media queries ### */
