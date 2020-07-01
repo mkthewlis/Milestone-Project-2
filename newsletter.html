@@ -65,25 +65,25 @@
                 </div>
                 <div class="col-12">
                     <div class="standard-box standard-font responsive-font newsletter-form shadow-lg">
-                        <form onsubmit="return newsletterSignUp(this);">
+                        <form onsubmit="return newsletterSignUp(this);" id="newsletter-form">
                             <div class="form-group form-style">
                                 <input type="text" name="first-name" id="firstname" class="form-control form-bg" placeholder="First Name" required/>
                                 <input type="text" name="last-name" id="lastname" class="form-control form-bg" placeholder="Last Name" required/>
                                 <input type="email" name="email" id="emailaddress" class="form-control form-bg" placeholder="Email" required/>
                             </div>
                             <div class="btn-center">
-                                <input type="submit" value="Submit" class="standard-btn newsletter-btn" data-toggle="modal" data-target="#myModal"/>
+                                <input type="submit" value="Submit" class="standard-btn newsletter-btn" data-toggle="modal" data-target="#thankYouModal"/>
                             </div>
                         </form>
                         <!-- Bootstrap Modal created with guidance from: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_modal&stacked=h -->
-                        <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal fade" id="thankYouModal" role="dialog">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-body">
-                                        <p>Some text in the modal.</p>
+                                        <p class="thank-you-message"></p>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal" id="close-btn">Close</button>
                                     </div>
                                 </div>
       

@@ -53,6 +53,12 @@ h1, h2 {
     font-weight: 200;
 }
 
+.modal-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 /*----------------------------------------------------Box styling*/
 
 .standard-box {
@@ -663,6 +669,9 @@ h1, h2 {
     text-align: center;
 }
 
+#close-btn {
+    color: #528FCB;
+}
 
 /*----------------------------------------------------------------------------### END OF: newsletter.html ### */
 

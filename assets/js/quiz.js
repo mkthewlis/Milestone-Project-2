@@ -29,8 +29,8 @@ $(document).ready(function(){
     //Function to reveal results
     $('#show-results').click(function(){
         //Shows the box with user's results
-        $(".hide-display").show();
-        $(".results-btn").show();
+        $('.hide-display').show();
+        $('.results-btn').show();
         //States user's score with personalised prompt to try again
         $('#results').text('Your score is: ' + results + '/7 points');
         if (results === 7){
