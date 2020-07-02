@@ -108,6 +108,7 @@ h1, h2 {
     border: #F5F862;
     color: #F5F862;
     text-align: center;
+    cursor: pointer;
 }
 
 .quiz-btn:hover {
@@ -126,11 +127,12 @@ h1, h2 {
     padding-top: 7px;
     max-width: 200px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .submit-results-btn:hover {
     color: #F5F862;
-    background-color: #53BFE7;
+    background-color: #528FCB;
     border: none;
 }
 
@@ -648,7 +650,7 @@ h1, h2 {
 }
 
 .quick-steps-bg {
-    min-height: 1000px;
+    min-height: 750px;
 }
 
 .quick-steps-text {
@@ -745,7 +747,7 @@ h1, h2 {
         margin-right: 60px;
         margin-left: 60px;
     }
-
+}
 /*Adjust title section to be responsive on all screen sizes*/
 @media screen and (max-width: 767px) {
     .plastic-box {
@@ -946,16 +948,40 @@ h1, h2 {
 }
 
 /*Change height of newsletter section*/
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 769px) {
 .newsletter-image {
     min-height: 800px;
     }
 }
 
 /*Correct next steps height on certain screens*/
-@media screen and (max-width: 438px){
+
+@media screen and (max-width: 1100px){
+    .quick-steps-bg {
+        min-height: 950px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1025px){
+    .quick-steps-bg {
+        min-height: 850px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .quick-steps-bg {
+        min-height: 1050px;
+    }
+}
+
+@media screen and (max-width: 400px){
     .quick-steps-bg {
         min-height: 1200px;
     }
 }
-/*----------------------------------------------------------------------------### END OF: @media queries ### */
+
+@media screen and (max-width: 359px){
+    .quick-steps-bg {
+        min-height: 1400px;
+    }
+}

@@ -10,7 +10,7 @@
                 //Adds thank you message to modal with user's name
                 $(".thank-you-message").text("Great to have you with us " + contactForm.firstname.value + "! Look out for our newsletter in your inbox soon.");
                 //Only opens modal on successful form submission
-                    $("#thankYouModal").modal("toggle");
+                $("#thankYouModal").modal("toggle");
                 //Refreshes form after user closes modal to remove content
                 $("#close-btn").click(function(){
                     location.reload();

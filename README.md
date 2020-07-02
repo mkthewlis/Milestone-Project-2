@@ -241,8 +241,8 @@ The images are from Pexels, The National Geographic and The Ocean Cleanup and ar
 
 Thank you to the following people who helped with support, inspiration and guidance at different stages in the project:
 
-- My mentor Seun Owonikoko
-- The supportive *Code Institute* community, including the tutor support team
+- The guidance and support of my mentor Seun Owonikoko
+- The supportive *Code Institute* community, including my fellow students and the tutor support team
 - My family and friends for their patience and honest critique throughout
 
 > Note: Please be aware that this website was made for educational purposes only and that I wrote the content when creating this project. The facts came from several sources online to add content, and although they were correct at the time of writing, they should not be followed without own research.
