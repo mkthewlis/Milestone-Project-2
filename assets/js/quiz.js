@@ -35,7 +35,7 @@ $(document).ready(function(){
         $('#results').text('Your score is: ' + results + '/7 points');
         if (results === 7){
             $('.try-again').text(`You're an expert! Why not test someone else next?`);
-        } else if (results > 5){
+        } else if (results >= 5){
             $('.try-again').text('Well done! Why not test someone else next?');
         } else if (results < 5 && results >= 1){
             $('.try-again').text('Good effort! Would you like try again?');

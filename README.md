@@ -117,8 +117,9 @@ This project consists of five pages, four of which can be reached through the me
 
 #### Newsletter
 - The first section of this page features a title and information about the newsletter.
-- It also features a form that the user's can complete to register, created with [EmailJS](https://www.emailjs.com/). This leads to a personalised alert with their name when complete.
-- It ends with a section thanking the user for their time. It provides three quick steps they can take to make a difference to the plastic waste in our oceans.
+- It also features a form that the user's can complete to register, created with [EmailJS](https://www.emailjs.com/).
+- Submitting the form correctly leads to a modal popup with a thank you message personalised with the user's name.
+- It ends with a section thanking the user for their time. This section provides three quick steps they can take to make a difference to the plastic waste in our oceans.
 
 ### Features Left to Implement
 
@@ -159,7 +160,7 @@ This project consists of five pages, four of which can be reached through the me
 - [Canva](https://www.canva.com/)
     * I used Canva to create the logo for *Our Oceans, Our Plastic* and imported the logo into my project when complete.
 - [FontAwesome](https://fontawesome.com/) 
-    * I relied on a free FontAwesome arrow icon to create the animated blue and yellow icons for my project.
+    * I relied on a free FontAwesome arrow icon to create the animated blue and yellow icons for my project. I also used three social media icons for Twitter, LinkedIn and Facebook.
 - [Pexels](https://www.pexels.com/) 
     * This was the source of several of the images used in my project, fully referenced in the 'Media' section below.
 - [TinyPNG](https://tinypng.com/) 
@@ -171,7 +172,7 @@ This project consists of five pages, four of which can be reached through the me
 - [W3C Markup Validation Service](https://validator.w3.org/) 
     * This was a great tool throughout the project to check whether there were any errors in my HTML and CSS code (as discussed in more detail below).
  - [JSHint](https://jshint.com/) 
-    * This tool helped me test my JavaScript and jQuery code (explained in more detail below). 
+    * This tool helped me test my JavaScript and jQuery code (explained in more detail in the Testing section below). 
 
 ## Testing
 

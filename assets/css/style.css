@@ -4,15 +4,15 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 /*ID used to stick footer to bottom of all html pages*/
 #container {
-  min-height: 100%;
-  position: relative;
+    min-height: 100%;
+    position: relative;
 }
 
 
@@ -185,10 +185,10 @@ h1, h2 {
 /*----------------------------------------------------Footer styling*/
 
 #footer-position{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
 .footer-border {
@@ -202,6 +202,8 @@ h1, h2 {
     margin-top: 30px;
     text-align: right;
     font-size: 27px;
+    letter-spacing: 2px;
+    opacity: 80%;
 }
 
 .footer-items a {
@@ -209,7 +211,7 @@ h1, h2 {
 }
 
 .footer-items i:hover {
-  color: #F5F862;
+    color: #F5F862;
 }
 
 /*----------------------------------------------------Arrow animation*/
@@ -480,7 +482,7 @@ h1, h2 {
 }
 
 .even-questions .quiz-answers {
-        background-color: #F5F862;
+    background-color: #F5F862;
 }
 
 .even-questions .question-number, .even-questions .questions {
@@ -559,7 +561,7 @@ h1, h2 {
     background: url("../images/plastic-cup.jpg");
     background-position: center;
     background-repeat: no-repeat;
-        background-size: cover;
+    background-size: cover;
     background-position-y: 30%;
     background-position-x: 50%;
     height: 400px;
@@ -692,10 +694,11 @@ h1, h2 {
 /*To reduce size of social media icons*/
 @media screen and (max-width: 600px) {
     .footer-items{
-        margin-right: 10px;
-        margin-top: 30px;
+        margin-right: 5px;
+        margin-top: 50px;
         text-align: right;
         font-size: 25px;
+        letter-spacing: 3px;
     }
 }
 
@@ -850,11 +853,11 @@ h1, h2 {
     }
 }
 
-/*Make results area larger on smaller screens*/
+/*Make results area adjust to all screens*/
 
 @media screen and (max-width: 814px){
     .results-section {
-        min-height: 1000px;
+        min-height: 850px;
     }
     .answer-btn-margin {
         margin-top: 80px;
@@ -864,18 +867,30 @@ h1, h2 {
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 763px) and (max-width: 769px){
+    .hide-display {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .results-section {
+        min-height: 800px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1030px){
+    .answer-btn-margin {
+        margin-top: 100px;
+    }
+    .results-section {
+        height: 650px;
+    }
+}
 
-/*Adjust top margin of submit button on certain screens*/
 @media screen and (min-width: 760px) and (max-width: 900px){
     .answer-btn-margin {
         margin-top: 150px;
     }
 }
-@media screen and (min-width: 900px) and (max-width: 1030px){
-    .answer-btn-margin {
-        margin-top: 50px;
-    }
-}
+
 
 /*Remove arrows on small screens*/
 @media screen and (max-width: 570px){
@@ -985,3 +1000,4 @@ h1, h2 {
         min-height: 1400px;
     }
 }
+/*----------------------------------------------------------------------------### END OF: @media queries ### */
