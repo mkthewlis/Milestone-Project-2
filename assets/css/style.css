@@ -525,7 +525,7 @@ h1, h2 {
 .gyre-location-image {
     background: url("../images/gyre-locations.png");
     background-repeat: no-repeat;
-    min-height: 100%;
+    min-height: 400px;
     width: 100%;
     margin-top: 30px;
     border: 3px solid #F5F862;
