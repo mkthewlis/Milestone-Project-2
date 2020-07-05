@@ -6,12 +6,12 @@
 ![Our Oceans, Our Plastic Responsive Design](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/responsive-project.png)
 
 
-*Our Oceans, Our Plastic* is a fictional organisation that aims aims to inform the general public about plastic waste in our 
+*Our Oceans, Our Plastic* is a fictional organisation that aims to inform the general public about plastic waste in our 
 oceans. My aim with this project was to create a website that allows to user to learn more about the issues of plastic waste 
 in an interactive way, keeping them interested, inspired and motivated to continue to learn more. 
 
 The idea for this project came to me as I believe that plastic waste in our oceans is an important topic to discuss and I wanted
-to create an unintimidating environment to learn more abot it. As I had just covered an introductory module on JavaScript, I 
+to create an unintimidating environment to learn more about it. As I had just completed an introductory module on JavaScript, I 
 decided to implement JavaScript in different ways throughout my project: with a Google Maps API, a short interactive quiz, 
 animated arrows to guide the user on and a form to subscribe to a fictional newsletter. 
 
@@ -36,27 +36,40 @@ The main requirements were to make an interactive and responsive website with HT
 
 ### User Stories
 
-1. I am a user who has never really considered that plastic waste in our oceans might be a problem. I want to use this website to learn more about the problem and want to see how much I've actually now learnt by taking the quiz.
+The following User Stories helped me to create a design that would satisfy the needs of several different types of users.
 
-2. I am a user who wants to stay up to date on the plastic waste problem, preferably with the latest news and tips on what I can do to help.
+#### Project stakeholders
 
-3. I am a primary school teacher who wants to discuss plastic waste with my students. I think it would be useful to introduce them to the topic then test them on what they've learnt. 
+- I am one of the creators of this platform and want to see it succeed. I would like to attract users in the hope of raising awarenss about plastic waste in our oceans and increasing our newsletter followers in order to make a difference.
 
-4. I am a user who primarily uses an iPad Pro to browse websites. I want to have a good experience on this website and view all the features in an equally aesthetic way. 
+#### New users
 
-5. I am one of the creators of this platform. I would like to attract users in the hope of raising awarenss about plastic waste in our oceans and increasing our newsletter followers.
+- I am a user who has never really considered that plastic waste in our oceans might be a problem. I want to use this website to learn more about the problem and want to see how much I've actually now learnt by taking the quiz.
+- I am a user who wants to stay up to date on the plastic waste problem, preferably with the latest news and tips on what I can do to help.
+
+#### Returning users
+
+- I am a primary school teacher who wants to discuss plastic waste with my students. I often rely on interactive sources online to do so, and have returned to this website again as I find it useful to be able to introduce my students to the topic before testing them on what they've learnt. 
+- I have used this website to learn about gyres before and now want to remind myself of where the five largest are located. 
+
+#### Tablet user
+
+- I am a user who primarily uses an iPad Pro to browse websites. I want to have a good experience on this website and view all the features in an equally aesthetic way. 
 
 ### Design Process
 
-1. I began the design process by outlining the key features that I wanted my website to have, with a focus on the JavaScript that I wanted to experiment with and ultimately implement. This led me to decide that I wanted to focus on three key features: a page with a Google Maps API, a quiz to test users and the chance for them to sign up to a newsletter. This helped me to formulate the structure of my design, with five seperate pages: 'Home', 'A Plastic Problem', 'Quiz', 'Results', 'Newsletter'.
+1. Strategy plane: From the onset, I knew that my primary aim was to educate users about plastic waste in the oceans, in a way that was fun, engaging and memorable. However, as I had just begun to develop my JavaScript skills, my aim on a personal level was to design a project where I could combine these two. I therefore started the UX process by creating the list of User Stories above, as they helped me crystalise who this project was aimed for and what would be neccessary to achieve this.
 
-2. For my design to work, I knew it would be important to create a theme that would keep the user interested in the topic. Thinking of plastic waste can feel overwhelming, as it is such an intimidating topic with solutions that are not yet fully clear to us. My first design decision was therefore to make the website seem welcoming, rather than daunting, with light colours and images of plastic waste that would not be shocking enough to prevent the user from continuing on (as this would of course prevent them from learning, which is one of the main objectives).
+2. Scope plane: Having decided the main aim for the project, I began outlining the key features that I wanted my website to have. To do so, I focused on the JavaScript that I wanted to experiment with and ultimately implement, as I knew this would be crucial to the aim of making the website interactive. This led me to decide that I wanted to focus on three key features: a page with a Google Maps API, a quiz to test users and the chance for them to sign up to a newsletter. 
 
-3. I then considered the pace that I wanted to user to navigate the website. I wanted it to be easy for them to use the menu to move between each page, but that they would mostly rely on the strategically placed buttons taking them through each page in order. This would keep the pace going as they swiftly move through the design, learning throughout the process before ultimately signing up to the newsletter.
+3. Strcuture plane: Once I had narrowed down what features I wanted to include, I began to formulate the structure of my design into five seperate pages: 'Home', 'A Plastic Problem', 'Quiz', 'Results', 'Newsletter'. These seemed logical to me, as the 'Home' page would welcome users to the project with a brief overview of the organisation's aims. They would then continue to 'A Plastic Problem' to learn about the issues of plastic waste in preparation for taking the quiz on the next page: 'Quiz'. Once the user completes the quiz, they can move on to see the correct answers on the 'Results' page. With their newfound knowledge, it seems logical to move on to the 'Newsletter' page where they can sign up to the newsletter to keep in touch. As well as using the menu bar, I also decided that I wanted to include strategically placed buttons to encourage the user to go on to the next step and stay motivated whilst doing so.
 
-4. I started a workspace on [Figma](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=170%3A1) and began experimenting with my wireframe. As with my first Milestone Project, I found it useful to have my hero image in place to extract complementary colors for the theme from it. I also began designing my logo ideas on [Canva](https://www.canva.com/design/DAD-9OmoVNg/wbnoii0XoGRt1jnc77ivOQ/view?utm_content=DAD-9OmoVNg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) as I felt this would be important to the theme of the design. In the end I settled with a blue and yellow theme: the blue (#528FCB) was extracted from the hero image and represents the ocean, whilst the yellow (#F5F862) complements the blue color and sybolises the hope of solving the problem and sets a 'fun' and interactive tone for the design.
+4. Skeleton plane: As mentioned in the Structure Plane, I had begun to consider including two main ways for the user to navigate the website: both the menu bar, and additional buttons as prompts. I came to this decision whilst considering the pace that I wanted the user to navigate the website. I wanted it to be easy for them to use the menu to move between each page, but that they would mostly rely on the buttons placed at the end of their current section to take them through each page in order. This would keep the pace going as they swiftly move through the design, learning throughout the process before ultimately signing up to the newsletter. However, as well as deciding on the menu bar and buttons, this stage of my design process also helped me to think of the blinking arrow pointing downwards, urging the user on. The idea was also that if the button were clicked, it would scroll smoothly to down the page to the next section, creating a fun and positive user experience.
 
-5. With the wireframes complete, I began experimenting with the quiz in a seperate workspace to create the JavaScript needed to make this aspect of my project work. I created the basic structure and code with HTML and JavaScript and the repository can be found on GitHub [here](https://github.com/mkthewlis/quiz-practice).  
+5. Surface plane: 
+    * For my design to work, I knew that it would be important to create a theme that would keep the user interested in the topic. Thinking of plastic waste can feel overwhelming, as it is such an intimidating topic with solutions that are not yet fully clear to us. My first design decision was therefore to make the website seem welcoming, rather than daunting, with light colours and images of plastic waste that would not be shocking enough to prevent the user from continuing on (as this would of course prevent them from learning, which is one of the main aims of this project).
+    * With this in mind, I started a workspace on [Figma](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=170%3A1) and began experimenting with my wireframe. As with my first Milestone Project, I found it useful to have my hero image in place to extract complementary colors for the theme from it. I also began designing my logo ideas on [Canva](https://www.canva.com/design/DAD-9OmoVNg/wbnoii0XoGRt1jnc77ivOQ/view?utm_content=DAD-9OmoVNg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) as I felt this would be important to the theme of the design. In the end I settled with a blue and yellow theme: the blue (#528FCB) was extracted from the hero image and represents the ocean, whilst the yellow (#F5F862) complements the blue color well and sybolises the hope of solving this problem. As hope is important to keep the user engaged in such a difficult subject, I thought it would be good to balance the blue and yellow together in this way.
+    * With the wireframes complete, I began experimenting with the quiz in a seperate workspace to create the JavaScript needed to make this aspect of my project work. I created the basic structure and code with HTML and JavaScript and the repository can be found on GitHub [here](https://github.com/mkthewlis/quiz-practice).  
 
 > Note: Throughout the design process, I kept referring back to my original 'Main Aims' and 'User Stories' to make sure that my project was developing as intended.
 
