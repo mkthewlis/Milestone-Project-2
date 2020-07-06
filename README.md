@@ -69,6 +69,7 @@ The following User Stories helped me to create a design that would satisfy the n
 5. Surface plane: 
     * For my design to work, I knew that it would be important to create a theme that would keep the user interested in the topic. Thinking of plastic waste can feel overwhelming, as it is such an intimidating topic with solutions that are not yet fully clear to us. My first design decision was therefore to make the website seem welcoming, rather than daunting, with light colours and images of plastic waste that would not be shocking enough to prevent the user from continuing on (as this would of course prevent them from learning, which is one of the main aims of this project).
     * With this in mind, I started a workspace on [Figma](https://www.figma.com/file/Hv9GYC33ydTGLuwIxydgRr/Code-Institute?node-id=170%3A1) and began experimenting with my wireframe. As with my first Milestone Project, I found it useful to have my hero image in place to extract complementary colors for the theme from it. I also began designing my logo ideas on [Canva](https://www.canva.com/design/DAD-9OmoVNg/wbnoii0XoGRt1jnc77ivOQ/view?utm_content=DAD-9OmoVNg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) as I felt this would be important to the theme of the design. In the end I settled with a blue and yellow theme: the blue (#528FCB) was extracted from the hero image and represents the ocean, whilst the yellow (#F5F862) complements the blue color well and sybolises the hope of solving this problem. As hope is important to keep the user engaged in such a difficult subject, I thought it would be good to balance the blue and yellow together in this way.
+    * I turned to Google Fonts to select the fonts for my project. I wanted to find two compatible fonts that would help to both make the design look credible (so users would take it seriously as a source of information), but that would not be intimidating as I want the users to feel motivated to read on. As a result, I settled for Montserrat for my titles and Raleway for the content. 
     * With the wireframes complete, I began experimenting with the quiz in a seperate workspace to create the JavaScript needed to make this aspect of my project work. I created the basic structure and code with HTML and JavaScript and the repository can be found on GitHub [here](https://github.com/mkthewlis/quiz-practice).  
 
 > Note: Throughout the design process, I kept referring back to my original 'Main Aims' and 'User Stories' to make sure that my project was developing as intended.
@@ -196,7 +197,9 @@ Please view the complete testing process in this separate document [here](https:
 ### Deploying my project 
 
 I created my project on GitHub and used GitPod's development environment to write my code. 
+Use the following link to view my live project: [Our Oceans, Our Plastic](https://mkthewlis.github.io/Milestone-Project-2/)
 
+#### Deploying to GitHub Pages
 To make my project viewable to others, I deployed my project to GitHub Pages with the following process:
 
 1. I opened the 'Settings' section of my project repository in GitHub.
@@ -204,9 +207,25 @@ To make my project viewable to others, I deployed my project to GitHub Pages wit
 3. Here I selected 'master branch' as my Source.
 3. This deployed my project on GitHub Pages and allowed me to share the live website with others. 
 
-Use the following link to view my live project: [Our Oceans, Our Plastic](https://mkthewlis.github.io/Milestone-Project-2/)
-
 More information about this process can be found on the following link: [Configuring a publishing source for your GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+#### Deploying with Google Maps API
+
+For this project, I also used a Google Maps API. I integrated this to my website in the following way:
+1. I navigated to Gooogle's [Getting started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started), where I set up an account my account.
+2. From there I decided to use the 'Maps JavaScript API' and an API key with these steps on [here.](https://developers.google.com/maps/documentation/javascript/get-api-key)
+3. Once I had set up my Google Maps feature in my project as described [here](https://developers.google.com/maps/documentation/javascript/tutorial), I restricted the key's access to only my project's URL to limit its use for no other purposes.
+
+The above process can be copied if you would like to deploy a project with the Google Maps API feature.
+
+#### Deploying with EmailJS
+
+I used EmailJS to automatically send me an email each time a user submits the Newsletter form. This feature can be implemented as follows:
+1. I created an account with EmailJS and navigated to this [page](https://www.emailjs.com/docs/tutorial/adding-email-service/)
+2. I followed the steps from the tutorial, creating a template and adding the EmailJS javascript library to my project.
+3. I chose to stay with a free account, which limits my monthly quota to 200 emails per month.
+
+The above process can be copied if you would like to deploy a project with the EmailJS service.
 
 ### Cloning my project
 
