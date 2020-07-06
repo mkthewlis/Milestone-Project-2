@@ -103,6 +103,28 @@ h1, h2 {
     color: #F5F862;
 }
 
+.footer-btn .small-btn{
+    position: relative;
+    margin: 0 auto;
+    color: #F5F862;
+    letter-spacing: 0px;
+}
+
+.small-btn {
+    background-color: #528FCB;
+    font-size: 15px;
+    opacity: 80%;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    min-height: 35px;
+    border: none;
+}
+
+.small-btn:hover {
+    background-color: #F5F862;
+    color: #528FCB;
+}
+
 .quiz-btn {
     background-color: #528FCB;
     border: #F5F862;
@@ -198,9 +220,9 @@ h1, h2 {
 }
 
 .footer-items{
-    margin-right: 30px;
-    margin-top: 30px;
-    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
     font-size: 27px;
     letter-spacing: 2px;
     opacity: 80%;
@@ -696,9 +718,21 @@ h1, h2 {
     .footer-items{
         margin-right: 5px;
         margin-top: 50px;
-        text-align: right;
+        text-align: center;
         font-size: 25px;
         letter-spacing: 3px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .footer-items{
+        margin-top: 15px;
+    }
+}
+
+/*Hide 'back to top' button on smallest screens*/
+@media screen and (max-width: 400px) {
+    .small-btn {
+        display: none
     }
 }
 

@@ -58,7 +58,7 @@ The following User Stories helped me to create a design that would satisfy the n
 
 ### Design Process
 
-1. Strategy plane: From the onset, I knew that my primary aim was to educate users about plastic waste in the oceans, in a way that was fun, engaging and memorable. However, as I had just begun to develop my JavaScript skills, my aim on a personal level was to design a project where I could combine these two. I therefore started the UX process by creating the list of User Stories above, as they helped me crystalise who this project was aimed for and what would be neccessary to achieve this.
+1. Strategy plane: From the onset, I knew that my primary aim was to educate users about plastic waste in the oceans, in a way that was fun, engaging and memorable. However, as I had just begun to develop my JavaScript skills, my aim for this particular project was to also design a project where I could combine these two. I therefore started the UX process by creating the list of User Stories above, as they helped me crystalise who this project was aimed for and what would be neccessary to successfully satisfy them.
 
 2. Scope plane: Having decided the main aim for the project, I began outlining the key features that I wanted my website to have. To do so, I focused on the JavaScript that I wanted to experiment with and ultimately implement, as I knew this would be crucial to the aim of making the website interactive. This led me to decide that I wanted to focus on three key features: a page with a Google Maps API, a quiz to test users and the chance for them to sign up to a newsletter. 
 
