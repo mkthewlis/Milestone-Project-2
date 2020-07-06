@@ -725,17 +725,14 @@ h1, h2 {
         font-size: 25px;
         letter-spacing: 3px;
     }
-}
-@media screen and (min-width: 400px) and (max-width: 600px) {
-    .footer-items{
-        margin-top: 15px;
+    .small-btn {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
-
-/*Hide 'back to top' button on smallest screens*/
-@media screen and (max-width: 400px) {
-    .small-btn {
-        display: none
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .footer-items{
+        margin-top: 15px;
     }
 }
 
