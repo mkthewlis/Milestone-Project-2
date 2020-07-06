@@ -111,7 +111,6 @@ I manually tested the design of the live project by doing the following:
 
 ![Quiz without arrows on small screen](https://github.com/mkthewlis/Milestone-Project-2/blob/master/assets/images/readme-images/no-arrows.png)
 
-- I also decided to remove the 'Back to top' button from the footer on the smallest screens. I made this decision after I began testing the project on smaller devices, as I realised the footer became too crowded. I justified the choice of removing this button as the menu bar is still visible when the user has scrolled to the bottom of the page to the footer, so they can use the menu to navigate back to the top instead of scrolling, if they prefer to do so.
 - At the end of the project I realised that there would be a better way to achieve the same results for making certain aspects of my design responsive. Instead of changing the margins and alignment of classes to be responsive for each screen individually, I could have reduced the amount of code to get the same result of centering a text box on each screen with the following steps:
     * Place my textbox content in a `<div>` within another with the Bootstrap class `col-6` instead of `<col-12>`
     * Give this class the property `margin: auto` to ensure that it is always aligned to the center of the screen.
