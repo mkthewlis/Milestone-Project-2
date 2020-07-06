@@ -297,7 +297,7 @@ h1, h2 {
 }
 
 .extra-margin {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .heading-arrow {
@@ -469,6 +469,7 @@ h1, h2 {
 .ocean-cleanup {
     border-radius: 25px;
     height: 50px;
+    border: 3px solid #00CEE6;
 }
 
 .ocean-cleanup:hover {
