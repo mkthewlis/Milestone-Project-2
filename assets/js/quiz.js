@@ -13,13 +13,14 @@ $(document).ready(function(){
         }
     });
 
-    //Increases user result by one point if correct answer is selected, and an extra point if bonus is correct
+    //Increases user result by only one point if correct answer is selected
     $('.true').one('click', function() {
         results ++;
+        //Adds an additional point if bonus question is correct
         if ($(this).hasClass('bonus')){
         results ++;
         }
-        });
+    });
 
      //Fades out other possible quiz answers when one has been selected 
     $('.quiz-btn').click(function(){

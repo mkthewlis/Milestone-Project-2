@@ -117,12 +117,14 @@ h1, h2 {
     padding-bottom: 0px;
     padding-top: 5px;
     min-height: 35px;
-    border: none;
+    border: 1px solid #528FCB;
 }
 
 .small-btn:hover {
     background-color: #F5F862;
     color: #528FCB;
+    opacity: 100%;
+    border: 1px solid #528FCB;
 }
 
 .quiz-btn {
